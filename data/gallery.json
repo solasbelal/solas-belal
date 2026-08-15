@@ -1,0 +1,301 @@
+{
+  "gallery": {
+    "title": "সোলাস বেলাল গ্যালারি",
+    "titleBn": "সোলাস বেলাল গ্যালারি",
+    "titleEn": "Solas Belal Gallery",
+
+    "description": "সোলাস বেলালের অফিসিয়াল ফটো গ্যালারি। এখানে ক্রিয়েটর মুহূর্ত, লাইফস্টাইল পোর্ট্রেট, কনটেন্ট শুট, দর্শক-ভক্তদের সঙ্গে স্মরণীয় মুহূর্ত এবং নির্বাচিত ব্যক্তিগত ব্র্যান্ড ভিজ্যুয়াল রয়েছে।",
+    "descriptionBn": "সোলাস বেলালের অফিসিয়াল ফটো গ্যালারি। এখানে ক্রিয়েটর মুহূর্ত, লাইফস্টাইল পোর্ট্রেট, কনটেন্ট শুট, দর্শক-ভক্তদের সঙ্গে স্মরণীয় মুহূর্ত এবং নির্বাচিত ব্যক্তিগত ব্র্যান্ড ভিজ্যুয়াল রয়েছে।",
+    "descriptionEn": "Official photo gallery of Solas Belal featuring creator moments, lifestyle portraits, content shoots, fan interactions and selected personal-brand visuals.",
+
+    "basePath": "/solas-belal/assets/images/gallery/",
+    "totalItems": 7,
+    "defaultLanguage": "bn-BD",
+    "alternateLanguage": "en-BD"
+  },
+
+  "items": [
+    {
+      "id": "gallery-01",
+      "order": 1,
+      "slug": "solas-belal-fan-celebration",
+
+      "title": "ভক্তদের সঙ্গে উদযাপন",
+      "titleBn": "ভক্তদের সঙ্গে উদযাপন",
+      "titleEn": "Celebrating With Fans",
+
+      "file": "solas-belal-gallery-01.webp",
+      "src": "/solas-belal/assets/images/gallery/solas-belal-gallery-01.webp",
+
+      "alt": "একটি আউটডোর ক্রিয়েটর আয়োজনে ভক্তদের সঙ্গে সোলাস বেলালের উদযাপনের মুহূর্ত।",
+      "altBn": "একটি আউটডোর ক্রিয়েটর আয়োজনে ভক্তদের সঙ্গে সোলাস বেলালের উদযাপনের মুহূর্ত।",
+      "altEn": "Solas Belal celebrating with fans during an outdoor creator gathering.",
+
+      "caption": "যাঁরা এই যাত্রাকে সমর্থন করেন, তাঁদের সঙ্গে একটি স্মরণীয় মুহূর্ত।",
+      "captionBn": "যাঁরা এই যাত্রাকে সমর্থন করেন, তাঁদের সঙ্গে একটি স্মরণীয় মুহূর্ত।",
+      "captionEn": "A memorable moment with the people who support the journey.",
+
+      "category": "community",
+      "orientation": "portrait",
+      "width": 1600,
+      "height": 2000,
+      "aspectRatio": "4:5",
+      "featured": true,
+      "loading": "lazy"
+    },
+
+    {
+      "id": "gallery-02",
+      "order": 2,
+      "slug": "solas-belal-motorcycle-lifestyle",
+
+      "title": "পথের মুহূর্ত",
+      "titleBn": "পথের মুহূর্ত",
+      "titleEn": "On the Road",
+
+      "file": "solas-belal-gallery-02.webp",
+      "src": "/solas-belal/assets/images/gallery/solas-belal-gallery-02.webp",
+
+      "alt": "গোল্ডেন আওয়ারে নিরিবিলি একটি সড়কে মোটরসাইকেলের পাশে সোলাস বেলালের লাইফস্টাইল পোর্ট্রেট।",
+      "altBn": "গোল্ডেন আওয়ারে নিরিবিলি একটি সড়কে মোটরসাইকেলের পাশে সোলাস বেলালের লাইফস্টাইল পোর্ট্রেট।",
+      "altEn": "Solas Belal posing beside a motorcycle on a quiet road during golden hour.",
+
+      "caption": "ক্যামেরার বাইরের ক্রিয়েটর লাইফস্টাইলের একটি মুহূর্ত।",
+      "captionBn": "ক্যামেরার বাইরের ক্রিয়েটর লাইফস্টাইলের একটি মুহূর্ত।",
+      "captionEn": "Creator lifestyle beyond the camera.",
+
+      "category": "lifestyle",
+      "orientation": "portrait",
+      "width": 1600,
+      "height": 2000,
+      "aspectRatio": "4:5",
+      "featured": true,
+      "loading": "lazy"
+    },
+
+    {
+      "id": "gallery-03",
+      "order": 3,
+      "slug": "solas-belal-content-shoot",
+
+      "title": "ক্রিয়েটর মোড",
+      "titleBn": "ক্রিয়েটর মোড",
+      "titleEn": "Creator Mode",
+
+      "file": "solas-belal-gallery-03.webp",
+      "src": "/solas-belal/assets/images/gallery/solas-belal-gallery-03.webp",
+
+      "alt": "একটি স্টাইলড কনটেন্ট শুটে সোলাস বেলালের ক্রিয়েটর পোর্ট্রেট।",
+      "altBn": "একটি স্টাইলড কনটেন্ট শুটে সোলাস বেলালের ক্রিয়েটর পোর্ট্রেট।",
+      "altEn": "Solas Belal in a styled creator portrait during a professional content shoot.",
+
+      "caption": "প্রতিটি ফ্রেমের পেছনে থাকে আলাদা একটি সৃজনশীল দৃষ্টিভঙ্গি।",
+      "captionBn": "প্রতিটি ফ্রেমের পেছনে থাকে আলাদা একটি সৃজনশীল দৃষ্টিভঙ্গি।",
+      "captionEn": "Behind every frame is a different creative perspective.",
+
+      "category": "creator",
+      "orientation": "portrait",
+      "width": 1600,
+      "height": 2000,
+      "aspectRatio": "4:5",
+      "featured": false,
+      "loading": "lazy"
+    },
+
+    {
+      "id": "gallery-04",
+      "order": 4,
+      "slug": "solas-belal-lifestyle-portrait",
+
+      "title": "ভিন্ন এক রূপ",
+      "titleBn": "ভিন্ন এক রূপ",
+      "titleEn": "A Different Side",
+
+      "file": "solas-belal-gallery-04.webp",
+      "src": "/solas-belal/assets/images/gallery/solas-belal-gallery-04.webp",
+
+      "alt": "সোলাস বেলালের অফিসিয়াল গ্যালারির জন্য তৈরি একটি স্বতন্ত্র লাইফস্টাইল পোর্ট্রেট।",
+      "altBn": "সোলাস বেলালের অফিসিয়াল গ্যালারির জন্য তৈরি একটি স্বতন্ত্র লাইফস্টাইল পোর্ট্রেট।",
+      "altEn": "Solas Belal in a distinctive lifestyle portrait created for his official gallery.",
+
+      "caption": "পরিবেশ আলাদা, অভিব্যক্তি আলাদা—পরিচয় একই।",
+      "captionBn": "পরিবেশ আলাদা, অভিব্যক্তি আলাদা—পরিচয় একই।",
+      "captionEn": "Different setting. Different expression. Same identity.",
+
+      "category": "portrait",
+      "orientation": "portrait",
+      "width": 1600,
+      "height": 2000,
+      "aspectRatio": "4:5",
+      "featured": false,
+      "loading": "lazy"
+    },
+
+    {
+      "id": "gallery-05",
+      "order": 5,
+      "slug": "solas-belal-golden-hour",
+
+      "title": "গোল্ডেন আওয়ার",
+      "titleBn": "গোল্ডেন আওয়ার",
+      "titleEn": "Golden Hour",
+
+      "file": "solas-belal-gallery-05.webp",
+      "src": "/solas-belal/assets/images/gallery/solas-belal-gallery-05.webp",
+
+      "alt": "গোল্ডেন আওয়ারে একটি আউটডোর ক্যাফে পরিবেশে সোলাস বেলালের স্টাইলিশ পোর্ট্রেট।",
+      "altBn": "গোল্ডেন আওয়ারে একটি আউটডোর ক্যাফে পরিবেশে সোলাস বেলালের স্টাইলিশ পোর্ট্রেট।",
+      "altEn": "Solas Belal posing in a stylish outdoor cafe setting during golden hour.",
+
+      "caption": "আলো, রং ও পরিবেশে তৈরি একটি স্বচ্ছন্দ ক্রিয়েটর মুহূর্ত।",
+      "captionBn": "আলো, রং ও পরিবেশে তৈরি একটি স্বচ্ছন্দ ক্রিয়েটর মুহূর্ত।",
+      "captionEn": "A relaxed creator moment shaped by light, colour and atmosphere.",
+
+      "category": "lifestyle",
+      "orientation": "portrait",
+      "width": 1600,
+      "height": 2000,
+      "aspectRatio": "4:5",
+      "featured": false,
+      "loading": "lazy"
+    },
+
+    {
+      "id": "gallery-06",
+      "order": 6,
+      "slug": "solas-belal-cinematic-shoot",
+
+      "title": "সিনেমাটিক চরিত্র",
+      "titleBn": "সিনেমাটিক চরিত্র",
+      "titleEn": "Cinematic Character",
+
+      "file": "solas-belal-gallery-06.webp",
+      "src": "/solas-belal/assets/images/gallery/solas-belal-gallery-06.webp",
+
+      "alt": "রাতের একটি কনটেন্ট শুটে নাটকীয় সিনেমাটিক চরিত্রের লুকে সোলাস বেলাল।",
+      "altBn": "রাতের একটি কনটেন্ট শুটে নাটকীয় সিনেমাটিক চরিত্রের লুকে সোলাস বেলাল।",
+      "altEn": "Solas Belal in a dramatic cinematic character look during a night content shoot.",
+
+      "caption": "একটি সিনেমাটিক কনটেন্ট ধারণার জন্য তৈরি সাহসী চরিত্রভিত্তিক লুক।",
+      "captionBn": "একটি সিনেমাটিক কনটেন্ট ধারণার জন্য তৈরি সাহসী চরিত্রভিত্তিক লুক।",
+      "captionEn": "A bold character-driven look created for a cinematic content concept.",
+
+      "category": "content-shoot",
+      "orientation": "portrait",
+      "width": 1600,
+      "height": 2000,
+      "aspectRatio": "4:5",
+      "featured": true,
+      "loading": "lazy"
+    },
+
+    {
+      "id": "gallery-07",
+      "order": 7,
+      "slug": "solas-belal-seaside",
+
+      "title": "সমুদ্রের পাশে",
+      "titleBn": "সমুদ্রের পাশে",
+      "titleEn": "Seaside Escape",
+
+      "file": "solas-belal-gallery-07.webp",
+      "src": "/solas-belal/assets/images/gallery/solas-belal-gallery-07.webp",
+
+      "alt": "সোলাস বেলালের অফিসিয়াল ক্রিয়েটর গ্যালারির জন্য সমুদ্রের পাশে তোলা একটি স্টাইলিশ পোর্ট্রেট।",
+      "altBn": "সোলাস বেলালের অফিসিয়াল ক্রিয়েটর গ্যালারির জন্য সমুদ্রের পাশে তোলা একটি স্টাইলিশ পোর্ট্রেট।",
+      "altEn": "Solas Belal in a stylish seaside setting for his official creator gallery.",
+
+      "caption": "নতুন পরিবেশে ভিন্ন এক ভিজ্যুয়াল আবহ।",
+      "captionBn": "নতুন পরিবেশে ভিন্ন এক ভিজ্যুয়াল আবহ।",
+      "captionEn": "A fresh setting and a different visual mood.",
+
+      "category": "travel-lifestyle",
+      "orientation": "portrait",
+      "width": 1600,
+      "height": 2000,
+      "aspectRatio": "4:5",
+      "featured": false,
+      "loading": "lazy"
+    }
+  ],
+
+  "categories": [
+    {
+      "id": "all",
+      "label": "সব",
+      "labelBn": "সব",
+      "labelEn": "All"
+    },
+    {
+      "id": "community",
+      "label": "কমিউনিটি",
+      "labelBn": "কমিউনিটি",
+      "labelEn": "Community"
+    },
+    {
+      "id": "creator",
+      "label": "ক্রিয়েটর",
+      "labelBn": "ক্রিয়েটর",
+      "labelEn": "Creator"
+    },
+    {
+      "id": "portrait",
+      "label": "পোর্ট্রেট",
+      "labelBn": "পোর্ট্রেট",
+      "labelEn": "Portrait"
+    },
+    {
+      "id": "lifestyle",
+      "label": "লাইফস্টাইল",
+      "labelBn": "লাইফস্টাইল",
+      "labelEn": "Lifestyle"
+    },
+    {
+      "id": "content-shoot",
+      "label": "কনটেন্ট শুট",
+      "labelBn": "কনটেন্ট শুট",
+      "labelEn": "Content Shoot"
+    },
+    {
+      "id": "travel-lifestyle",
+      "label": "ভ্রমণ",
+      "labelBn": "ভ্রমণ",
+      "labelEn": "Travel"
+    }
+  ],
+
+  "settings": {
+    "defaultLanguage": "bn-BD",
+    "alternateLanguage": "en-BD",
+    "enableLightbox": true,
+    "enableFiltering": true,
+    "enableKeyboardNavigation": true,
+    "enableSwipeNavigation": true,
+    "showCaptions": true,
+    "showCategories": true,
+    "lazyLoad": true,
+    "initialVisibleItems": 7
+  },
+
+  "seo": {
+    "pageTitle": "গ্যালারি | সোলাস বেলাল",
+    "pageTitleBn": "গ্যালারি | সোলাস বেলাল",
+    "pageTitleEn": "Gallery | Solas Belal",
+
+    "description": "সোলাস বেলালের অফিসিয়াল ফটো গ্যালারি দেখুন। এখানে ক্রিয়েটর পোর্ট্রেট, ভক্তদের সঙ্গে মুহূর্ত, লাইফস্টাইল ফটোগ্রাফি এবং নির্বাচিত কনটেন্ট শুটের ছবি রয়েছে।",
+    "descriptionBn": "সোলাস বেলালের অফিসিয়াল ফটো গ্যালারি দেখুন। এখানে ক্রিয়েটর পোর্ট্রেট, ভক্তদের সঙ্গে মুহূর্ত, লাইফস্টাইল ফটোগ্রাফি এবং নির্বাচিত কনটেন্ট শুটের ছবি রয়েছে।",
+    "descriptionEn": "Explore the official photo gallery of Solas Belal, featuring creator portraits, fan moments, lifestyle photography and selected content-shoot visuals.",
+
+    "ogImage": "/solas-belal/assets/images/seo/og-gallery.jpg",
+
+    "inLanguage": "bn-BD",
+    "alternateInLanguage": "en-BD"
+  },
+
+  "metadata": {
+    "version": "1.1.0",
+    "defaultLanguage": "bn-BD",
+    "alternateLanguage": "en-BD",
+    "lastUpdated": "2026-08-15"
+  }
+}

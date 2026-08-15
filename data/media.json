@@ -1,0 +1,230 @@
+{
+  "media": {
+    "title": "মিডিয়া",
+    "titleBn": "মিডিয়া",
+    "titleEn": "Media",
+
+    "eyebrow": "ক্রিয়েটর হাইলাইটস",
+    "eyebrowBn": "ক্রিয়েটর হাইলাইটস",
+    "eyebrowEn": "Creator Highlights",
+
+    "description": "সোলাস বেলালের নির্বাচিত ক্রিয়েটর ভিজ্যুয়াল, বিশেষ মুহূর্ত এবং মিডিয়া হাইলাইটগুলো দেখুন।",
+    "descriptionBn": "সোলাস বেলালের নির্বাচিত ক্রিয়েটর ভিজ্যুয়াল, বিশেষ মুহূর্ত এবং মিডিয়া হাইলাইটগুলো দেখুন।",
+    "descriptionEn": "Explore selected creator visuals, featured moments and media highlights from Solas Belal.",
+
+    "basePath": "/solas-belal/assets/images/media/",
+    "totalItems": 3,
+
+    "defaultLanguage": "bn-BD",
+    "alternateLanguage": "en-BD"
+  },
+
+  "items": [
+    {
+      "id": "media-01",
+      "order": 1,
+      "slug": "solas-belal-creator-journey",
+
+      "title": "যাত্রা মাত্র শুরু",
+      "titleBn": "যাত্রা মাত্র শুরু",
+      "titleEn": "The Journey Is Just Beginning",
+
+      "subtitle": "ক্রিয়েটর যাত্রা",
+      "subtitleBn": "ক্রিয়েটর যাত্রা",
+      "subtitleEn": "Creator Journey",
+
+      "description": "সোলাস বেলালের ক্রিয়েটর হিসেবে শুরু, লক্ষ্য এবং সামনে এগিয়ে চলার যাত্রাকে তুলে ধরা একটি নির্বাচিত ভিজ্যুয়াল।",
+      "descriptionBn": "সোলাস বেলালের ক্রিয়েটর হিসেবে শুরু, লক্ষ্য এবং সামনে এগিয়ে চলার যাত্রাকে তুলে ধরা একটি নির্বাচিত ভিজ্যুয়াল।",
+      "descriptionEn": "A creator-focused visual representing the beginning, ambition and continuing journey of Solas Belal.",
+
+      "file": "solas-belal-media-01.webp",
+      "src": "/solas-belal/assets/images/media/solas-belal-media-01.webp",
+
+      "alt": "সোলাস বেলালের ডিজিটাল কনটেন্ট ক্রিয়েটর যাত্রাকে তুলে ধরা একটি অফিসিয়াল মিডিয়া ভিজ্যুয়াল।",
+      "altBn": "সোলাস বেলালের ডিজিটাল কনটেন্ট ক্রিয়েটর যাত্রাকে তুলে ধরা একটি অফিসিয়াল মিডিয়া ভিজ্যুয়াল।",
+      "altEn": "Solas Belal creator media visual representing his digital content journey.",
+
+      "type": "creator-feature",
+      "category": "featured",
+
+      "orientation": "landscape",
+      "width": 1280,
+      "height": 720,
+      "aspectRatio": "16:9",
+
+      "featured": true,
+      "published": true,
+      "loading": "lazy"
+    },
+
+    {
+      "id": "media-02",
+      "order": 2,
+      "slug": "solas-belal-real-talk",
+
+      "title": "সরাসরি কথা",
+      "titleBn": "সরাসরি কথা",
+      "titleEn": "Real Talk",
+
+      "subtitle": "সামাজিক মন্তব্য",
+      "subtitleBn": "সামাজিক মন্তব্য",
+      "subtitleEn": "Social Commentary",
+
+      "description": "সামাজিক বিষয় নিয়ে সোলাস বেলালের সরাসরি, ব্যক্তিত্বনির্ভর বক্তব্য এবং ক্রিয়েটর যোগাযোগের ধরনকে তুলে ধরা একটি ভিজ্যুয়াল।",
+      "descriptionBn": "সামাজিক বিষয় নিয়ে সোলাস বেলালের সরাসরি, ব্যক্তিত্বনির্ভর বক্তব্য এবং ক্রিয়েটর যোগাযোগের ধরনকে তুলে ধরা একটি ভিজ্যুয়াল।",
+      "descriptionEn": "A visual representation of Solas Belal's direct, personality-driven approach to social commentary and creator communication.",
+
+      "file": "solas-belal-media-02.webp",
+      "src": "/solas-belal/assets/images/media/solas-belal-media-02.webp",
+
+      "alt": "আউটডোর ক্রিয়েটর পরিবেশে সামাজিক মাধ্যমের জন্য কনটেন্ট তৈরি করছেন সোলাস বেলাল।",
+      "altBn": "আউটডোর ক্রিয়েটর পরিবেশে সামাজিক মাধ্যমের জন্য কনটেন্ট তৈরি করছেন সোলাস বেলাল।",
+      "altEn": "Solas Belal creating social media content in an outdoor creator setting.",
+
+      "type": "commentary-feature",
+      "category": "commentary",
+
+      "orientation": "landscape",
+      "width": 1280,
+      "height": 720,
+      "aspectRatio": "16:9",
+
+      "featured": true,
+      "published": true,
+      "loading": "lazy"
+    },
+
+    {
+      "id": "media-03",
+      "order": 3,
+      "slug": "solas-belal-content-creator",
+
+      "title": "কনটেন্টের পেছনের গল্প",
+      "titleBn": "কনটেন্টের পেছনের গল্প",
+      "titleEn": "Behind the Content",
+
+      "subtitle": "ক্রিয়েটর লাইফস্টাইল",
+      "subtitleBn": "ক্রিয়েটর লাইফস্টাইল",
+      "subtitleEn": "Creator Lifestyle",
+
+      "description": "সোলাস বেলালের সৃজনশীল দিক, ব্যক্তিত্ব এবং কনটেন্ট তৈরির পরিচয়কে তুলে ধরা একটি নির্বাচিত মিডিয়া ভিজ্যুয়াল।",
+      "descriptionBn": "সোলাস বেলালের সৃজনশীল দিক, ব্যক্তিত্ব এবং কনটেন্ট তৈরির পরিচয়কে তুলে ধরা একটি নির্বাচিত মিডিয়া ভিজ্যুয়াল।",
+      "descriptionEn": "A selected media visual highlighting the creative side, personality and content-making identity of Solas Belal.",
+
+      "file": "solas-belal-media-03.webp",
+      "src": "/solas-belal/assets/images/media/solas-belal-media-03.webp",
+
+      "alt": "বাংলাদেশি কনটেন্ট ক্রিয়েটর সোলাস বেলালের একটি নির্বাচিত অফিসিয়াল মিডিয়া ভিজ্যুয়াল।",
+      "altBn": "বাংলাদেশি কনটেন্ট ক্রিয়েটর সোলাস বেলালের একটি নির্বাচিত অফিসিয়াল মিডিয়া ভিজ্যুয়াল।",
+      "altEn": "Featured official media visual of Bangladeshi content creator Solas Belal.",
+
+      "type": "lifestyle-feature",
+      "category": "creator",
+
+      "orientation": "landscape",
+      "width": 1280,
+      "height": 720,
+      "aspectRatio": "16:9",
+
+      "featured": false,
+      "published": true,
+      "loading": "lazy"
+    }
+  ],
+
+  "categories": [
+    {
+      "id": "all",
+      "label": "সব",
+      "labelBn": "সব",
+      "labelEn": "All"
+    },
+    {
+      "id": "featured",
+      "label": "বিশেষ",
+      "labelBn": "বিশেষ",
+      "labelEn": "Featured"
+    },
+    {
+      "id": "commentary",
+      "label": "মন্তব্য",
+      "labelBn": "মন্তব্য",
+      "labelEn": "Commentary"
+    },
+    {
+      "id": "creator",
+      "label": "ক্রিয়েটর",
+      "labelBn": "ক্রিয়েটর",
+      "labelEn": "Creator"
+    }
+  ],
+
+  "socialPlatforms": [
+    {
+      "id": "tiktok",
+      "name": "TikTok",
+      "handle": "@Solasbelal",
+      "url": "https://www.tiktok.com/@solasbelal"
+    },
+    {
+      "id": "instagram",
+      "name": "Instagram",
+      "handle": "@Solasbelal",
+      "url": "https://www.instagram.com/solasbelal/"
+    },
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "handle": "@Solasbelal",
+      "url": "https://www.facebook.com/solasbelal"
+    },
+    {
+      "id": "threads",
+      "name": "Threads",
+      "handle": "@Solasbelal",
+      "url": "https://www.threads.com/@solasbelal"
+    }
+  ],
+
+  "settings": {
+    "defaultLanguage": "bn-BD",
+    "alternateLanguage": "en-BD",
+
+    "enableFiltering": true,
+    "enableHoverEffects": true,
+    "enableLightbox": true,
+    "enableKeyboardNavigation": true,
+
+    "showDescriptions": true,
+    "showCategories": true,
+
+    "lazyLoad": true,
+    "externalLinksNewTab": true
+  },
+
+  "seo": {
+    "pageTitle": "মিডিয়া | সোলাস বেলাল",
+    "pageTitleBn": "মিডিয়া | সোলাস বেলাল",
+    "pageTitleEn": "Media | Solas Belal",
+
+    "description": "সোলাস বেলালের অফিসিয়াল মিডিয়া হাইলাইট, নির্বাচিত ক্রিয়েটর ভিজ্যুয়াল এবং কনটেন্ট দেখুন।",
+    "descriptionBn": "সোলাস বেলালের অফিসিয়াল মিডিয়া হাইলাইট, নির্বাচিত ক্রিয়েটর ভিজ্যুয়াল এবং কনটেন্ট দেখুন।",
+    "descriptionEn": "Explore official media highlights, creator visuals and selected content from Bangladeshi content creator Solas Belal.",
+
+    "canonical": "https://solasbelal.github.io/solas-belal/media/",
+    "canonicalBn": "https://solasbelal.github.io/solas-belal/media/",
+    "canonicalEn": "https://solasbelal.github.io/solas-belal/en/media/",
+
+    "ogImage": "https://solasbelal.github.io/solas-belal/assets/images/seo/og-media.jpg",
+
+    "inLanguage": "bn-BD",
+    "alternateInLanguage": "en-BD"
+  },
+
+  "metadata": {
+    "version": "1.1.0",
+    "defaultLanguage": "bn-BD",
+    "alternateLanguage": "en-BD",
+    "lastUpdated": "2026-08-15"
+  }
+}

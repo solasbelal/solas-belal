@@ -1,0 +1,84 @@
+{
+  "brand": {
+    "name": "সোলাস বেলাল",
+    "nameBn": "সোলাস বেলাল",
+    "nameEn": "Solas Belal",
+    "username": "Solasbelal",
+    "handle": "@Solasbelal"
+  },
+
+  "platforms": [
+    {
+      "id": "tiktok",
+      "name": "TikTok",
+      "username": "Solasbelal",
+      "handle": "@Solasbelal",
+      "url": "https://www.tiktok.com/@solasbelal",
+      "icon": "",
+      "label": "TikTok-এ সোলাস বেলালকে অনুসরণ করুন",
+      "labelBn": "TikTok-এ সোলাস বেলালকে অনুসরণ করুন",
+      "labelEn": "Follow Solas Belal on TikTok",
+      "active": true
+    },
+    {
+      "id": "instagram",
+      "name": "Instagram",
+      "username": "Solasbelal",
+      "handle": "@Solasbelal",
+      "url": "https://www.instagram.com/solasbelal/",
+      "icon": "",
+      "label": "Instagram-এ সোলাস বেলালকে অনুসরণ করুন",
+      "labelBn": "Instagram-এ সোলাস বেলালকে অনুসরণ করুন",
+      "labelEn": "Follow Solas Belal on Instagram",
+      "active": true
+    },
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "username": "Solasbelal",
+      "handle": "@Solasbelal",
+      "url": "https://www.facebook.com/solasbelal",
+      "icon": "",
+      "label": "Facebook-এ সোলাস বেলালকে অনুসরণ করুন",
+      "labelBn": "Facebook-এ সোলাস বেলালকে অনুসরণ করুন",
+      "labelEn": "Follow Solas Belal on Facebook",
+      "active": true
+    },
+    {
+      "id": "threads",
+      "name": "Threads",
+      "username": "Solasbelal",
+      "handle": "@Solasbelal",
+      "url": "https://www.threads.com/@solasbelal",
+      "icon": "",
+      "label": "Threads-এ সোলাস বেলালকে অনুসরণ করুন",
+      "labelBn": "Threads-এ সোলাস বেলালকে অনুসরণ করুন",
+      "labelEn": "Follow Solas Belal on Threads",
+      "active": true
+    }
+  ],
+
+  "sameAs": [
+    "https://www.tiktok.com/@solasbelal",
+    "https://www.instagram.com/solasbelal/",
+    "https://www.facebook.com/solasbelal",
+    "https://www.threads.com/@solasbelal"
+  ],
+
+  "settings": {
+    "defaultLanguage": "bn-BD",
+    "alternateLanguage": "en-BD",
+    "openExternalLinksInNewTab": true,
+    "useNoopener": true,
+    "useNoreferrer": true,
+    "showUsername": true,
+    "showPlatformName": true
+  },
+
+  "metadata": {
+    "version": "1.1.0",
+    "defaultLanguage": "bn-BD",
+    "alternateLanguage": "en-BD",
+    "lastUpdated": "2026-08-15"
+  }
+}

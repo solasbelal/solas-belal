@@ -1,0 +1,242 @@
+{
+  "identity": {
+    "brandName": "সোলাস বেলাল",
+    "brandNameBn": "সোলাস বেলাল",
+    "brandNameEn": "Solas Belal",
+
+    "realName": "বেলাল উদ্দিন",
+    "realNameBn": "বেলাল উদ্দিন",
+    "realNameEn": "Belal Uddin",
+
+    "shortName": "সোলাস",
+    "shortNameBn": "সোলাস",
+    "shortNameEn": "Solas",
+
+    "initials": "SB",
+
+    "profession": "বাংলাদেশি কনটেন্ট ক্রিয়েটর",
+    "professionBn": "বাংলাদেশি কনটেন্ট ক্রিয়েটর",
+    "professionEn": "Bangladeshi Content Creator",
+
+    "nationality": "বাংলাদেশি",
+    "nationalityBn": "বাংলাদেশি",
+    "nationalityEn": "Bangladeshi",
+
+    "country": "বাংলাদেশ",
+    "countryBn": "বাংলাদেশ",
+    "countryEn": "Bangladesh"
+  },
+
+  "birth": {
+    "date": "2006-12-15",
+
+    "displayDate": "১৫ ডিসেম্বর ২০০৬",
+    "displayDateBn": "১৫ ডিসেম্বর ২০০৬",
+    "displayDateEn": "15 December 2006",
+
+    "birthplace": {
+      "area": "নাইক্ষ্যংছড়ি",
+      "areaBn": "নাইক্ষ্যংছড়ি",
+      "areaEn": "Naikhongchhari",
+
+      "district": "বান্দরবান",
+      "districtBn": "বান্দরবান",
+      "districtEn": "Bandarban",
+
+      "country": "বাংলাদেশ",
+      "countryBn": "বাংলাদেশ",
+      "countryEn": "Bangladesh",
+
+      "display": "নাইক্ষ্যংছড়ি, বান্দরবান, বাংলাদেশ",
+      "displayBn": "নাইক্ষ্যংছড়ি, বান্দরবান, বাংলাদেশ",
+      "displayEn": "Naikhongchhari, Bandarban, Bangladesh"
+    }
+  },
+
+  "hometown": {
+    "area": "রামু",
+    "areaBn": "রামু",
+    "areaEn": "Ramu",
+
+    "district": "কক্সবাজার",
+    "districtBn": "কক্সবাজার",
+    "districtEn": "Cox's Bazar",
+
+    "country": "বাংলাদেশ",
+    "countryBn": "বাংলাদেশ",
+    "countryEn": "Bangladesh",
+
+    "display": "রামু, কক্সবাজার, বাংলাদেশ",
+    "displayBn": "রামু, কক্সবাজার, বাংলাদেশ",
+    "displayEn": "Ramu, Cox's Bazar, Bangladesh"
+  },
+
+  "creatorProfile": {
+    "primaryCategory": "কনটেন্ট ক্রিয়েটর",
+    "primaryCategoryBn": "কনটেন্ট ক্রিয়েটর",
+    "primaryCategoryEn": "Content Creator",
+
+    "secondaryCategories": [
+      "সোশ্যাল মিডিয়া ক্রিয়েটর",
+      "ডিজিটাল ক্রিয়েটর",
+      "মন্তব্যধর্মী কনটেন্ট ক্রিয়েটর"
+    ],
+
+    "secondaryCategoriesBn": [
+      "সোশ্যাল মিডিয়া ক্রিয়েটর",
+      "ডিজিটাল ক্রিয়েটর",
+      "মন্তব্যধর্মী কনটেন্ট ক্রিয়েটর"
+    ],
+
+    "secondaryCategoriesEn": [
+      "Social Media Creator",
+      "Digital Creator",
+      "Commentary Creator"
+    ],
+
+    "activePlatforms": [
+      "TikTok",
+      "Instagram",
+      "Facebook",
+      "Threads"
+    ],
+
+    "contentStyle": [
+      "অ্যাটিটিউডধর্মী কনটেন্ট",
+      "সামাজিক বিষয়ভিত্তিক মন্তব্য",
+      "ক্রিয়েটর লাইফস্টাইল",
+      "বিনোদন",
+      "শর্ট-ফর্ম ভিডিও"
+    ],
+
+    "contentStyleBn": [
+      "অ্যাটিটিউডধর্মী কনটেন্ট",
+      "সামাজিক বিষয়ভিত্তিক মন্তব্য",
+      "ক্রিয়েটর লাইফস্টাইল",
+      "বিনোদন",
+      "শর্ট-ফর্ম ভিডিও"
+    ],
+
+    "contentStyleEn": [
+      "Attitude-driven content",
+      "Social commentary",
+      "Creator lifestyle",
+      "Entertainment",
+      "Short-form video"
+    ]
+  },
+
+  "headline": {
+    "primary": "বাংলাদেশি কনটেন্ট ক্রিয়েটর",
+    "primaryBn": "বাংলাদেশি কনটেন্ট ক্রিয়েটর",
+    "primaryEn": "Bangladeshi Content Creator",
+
+    "secondary": "অ্যাটিটিউড। মন্তব্য। ক্রিয়েটর লাইফস্টাইল।",
+    "secondaryBn": "অ্যাটিটিউড। মন্তব্য। ক্রিয়েটর লাইফস্টাইল।",
+    "secondaryEn": "Attitude. Commentary. Creator Lifestyle."
+  },
+
+  "intro": {
+    "short": "সোলাস বেলাল একজন বাংলাদেশি কনটেন্ট ক্রিয়েটর, যিনি তাঁর স্বতন্ত্র ব্যক্তিত্ব, অ্যাটিটিউডধর্মী কনটেন্ট এবং সামাজিক বিষয়ভিত্তিক মন্তব্যের জন্য পরিচিত।",
+
+    "shortBn": "সোলাস বেলাল একজন বাংলাদেশি কনটেন্ট ক্রিয়েটর, যিনি তাঁর স্বতন্ত্র ব্যক্তিত্ব, অ্যাটিটিউডধর্মী কনটেন্ট এবং সামাজিক বিষয়ভিত্তিক মন্তব্যের জন্য পরিচিত।",
+
+    "shortEn": "Solas Belal is a Bangladeshi content creator known for attitude-driven social media content, commentary and a distinctive creator personality."
+  },
+
+  "about": {
+    "summary": "সোলাস বেলাল হলো বেলাল উদ্দিনের অনলাইন ক্রিয়েটর পরিচয়। তিনি একজন বাংলাদেশি ডিজিটাল কনটেন্ট ক্রিয়েটর। শর্ট-ফর্ম ভিডিও, সামাজিক বিষয়ভিত্তিক মন্তব্য এবং ব্যক্তিত্বনির্ভর কনটেন্টের মাধ্যমে তিনি নিজের একটি স্বতন্ত্র অনলাইন পরিচয় গড়ে তুলেছেন।",
+
+    "summaryBn": "সোলাস বেলাল হলো বেলাল উদ্দিনের অনলাইন ক্রিয়েটর পরিচয়। তিনি একজন বাংলাদেশি ডিজিটাল কনটেন্ট ক্রিয়েটর। শর্ট-ফর্ম ভিডিও, সামাজিক বিষয়ভিত্তিক মন্তব্য এবং ব্যক্তিত্বনির্ভর কনটেন্টের মাধ্যমে তিনি নিজের একটি স্বতন্ত্র অনলাইন পরিচয় গড়ে তুলেছেন।",
+
+    "summaryEn": "Solas Belal is the creator identity of Belal Uddin, a Bangladeshi digital content creator. Through short-form videos, social commentary and personality-driven content, he has developed a distinctive online identity built around direct expression, confidence and creator individuality."
+  },
+
+  "brandStory": {
+    "title": "কেন সোলাস বেলাল?",
+    "titleBn": "কেন সোলাস বেলাল?",
+    "titleEn": "Why Solas Belal?",
+
+    "summary": "সোলাস বেলাল নামটি সামাজিক যোগাযোগমাধ্যমে বেলালের স্বতন্ত্র মন্তব্যধর্মী কনটেন্ট ও ব্যক্তিত্বকে কেন্দ্র করে গড়ে উঠেছে। দায়িত্বহীন, নিম্নমানের বা আপত্তিকর অনলাইন প্রবণতার বিরুদ্ধে তিনি সরাসরি বক্তব্য, অ্যাটিটিউড এবং শক্তিশালী বার্তার মাধ্যমে নিজের অবস্থান প্রকাশ করেন।",
+
+    "summaryBn": "সোলাস বেলাল নামটি সামাজিক যোগাযোগমাধ্যমে বেলালের স্বতন্ত্র মন্তব্যধর্মী কনটেন্ট ও ব্যক্তিত্বকে কেন্দ্র করে গড়ে উঠেছে। দায়িত্বহীন, নিম্নমানের বা আপত্তিকর অনলাইন প্রবণতার বিরুদ্ধে তিনি সরাসরি বক্তব্য, অ্যাটিটিউড এবং শক্তিশালী বার্তার মাধ্যমে নিজের অবস্থান প্রকাশ করেন।",
+
+    "summaryEn": "The name Solas Belal grew from Belal's distinctive approach to social media commentary. His content often responds to irresponsible, low-quality or objectionable online trends through direct expression, attitude and strong messaging, while encouraging a more responsible content culture.",
+
+    "communityIdentity": "দর্শকদের পরিচিতি ও তাঁর কনটেন্টের স্বতন্ত্র ব্যক্তিত্বের মাধ্যমে সোলাস বেলাল নামটি ধীরে ধীরে তাঁর ক্রিয়েটর পরিচয়ের একটি গুরুত্বপূর্ণ অংশ হয়ে ওঠে।",
+
+    "communityIdentityBn": "দর্শকদের পরিচিতি ও তাঁর কনটেন্টের স্বতন্ত্র ব্যক্তিত্বের মাধ্যমে সোলাস বেলাল নামটি ধীরে ধীরে তাঁর ক্রিয়েটর পরিচয়ের একটি গুরুত্বপূর্ণ অংশ হয়ে ওঠে।",
+
+    "communityIdentityEn": "The name became part of his creator identity through audience recognition and the distinctive persona associated with his content."
+  },
+
+  "location": {
+    "birthRegion": "বান্দরবান",
+    "birthRegionBn": "বান্দরবান",
+    "birthRegionEn": "Bandarban",
+
+    "homeRegion": "কক্সবাজার",
+    "homeRegionBn": "কক্সবাজার",
+    "homeRegionEn": "Cox's Bazar",
+
+    "country": "বাংলাদেশ",
+    "countryBn": "বাংলাদেশ",
+    "countryEn": "Bangladesh"
+  },
+
+  "images": {
+    "officialProfile": "/solas-belal/assets/images/profile/solas-belal-official-profile.webp",
+    "squareProfile": "/solas-belal/assets/images/profile/solas-belal-square-profile.webp",
+    "aboutPortrait": "/solas-belal/assets/images/profile/solas-belal-about-portrait.webp",
+    "biographyPortrait": "/solas-belal/assets/images/profile/solas-belal-biography-portrait.webp",
+    "heroMain": "/solas-belal/assets/images/hero/solas-belal-hero-main.webp",
+    "heroAlt": "/solas-belal/assets/images/hero/solas-belal-hero-alt.webp"
+  },
+
+  "seo": {
+    "entityName": "Solas Belal",
+    "entityNameBn": "সোলাস বেলাল",
+
+    "personName": "Belal Uddin",
+    "personNameBn": "বেলাল উদ্দিন",
+
+    "alternateNames": [
+      "Solas Belal",
+      "সোলাস বেলাল",
+      "Belal Uddin",
+      "বেলাল উদ্দিন"
+    ],
+
+    "keywords": [
+      "Solas Belal",
+      "সোলাস বেলাল",
+      "Belal Uddin",
+      "বেলাল উদ্দিন",
+      "Solas Belal Bangladesh",
+      "Solas Belal Biography",
+      "Solas Belal Content Creator",
+      "Solas Belal TikTok",
+      "Solas Belal Facebook",
+      "Solas Belal Instagram",
+      "সোলাস বেলাল জীবনী",
+      "সোলাস বেলাল বাংলাদেশ",
+      "বাংলাদেশি কনটেন্ট ক্রিয়েটর"
+    ],
+
+    "defaultLanguage": "bn-BD",
+    "alternateLanguage": "en-BD"
+  },
+
+  "privacy": {
+    "showExactResidentialAddress": false,
+    "showPersonalPhone": false,
+    "publicLocationLevel": "upazila-district-country"
+  },
+
+  "metadata": {
+    "profileVersion": "1.1.0",
+    "defaultLanguage": "bn-BD",
+    "alternateLanguage": "en-BD",
+    "lastUpdated": "2026-08-15"
+  }
+}
