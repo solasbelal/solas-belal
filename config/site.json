@@ -1,0 +1,226 @@
+{
+  "site": {
+    "name": "সোলাস বেলাল",
+    "nameBn": "সোলাস বেলাল",
+    "nameEn": "Solas Belal",
+    "tagline": "বাংলাদেশি কনটেন্ট ক্রিয়েটর",
+    "taglineBn": "বাংলাদেশি কনটেন্ট ক্রিয়েটর",
+    "taglineEn": "Bangladeshi Content Creator",
+    "description": "সোলাস বেলালের অফিসিয়াল ওয়েবসাইট। জীবনী, অফিসিয়াল সোশ্যাল প্রোফাইল, মিডিয়া, গ্যালারি, কনটেন্ট ক্রিয়েটর পরিচিতি এবং যোগাযোগের তথ্য এক জায়গায়।",
+    "descriptionBn": "সোলাস বেলালের অফিসিয়াল ওয়েবসাইট। জীবনী, অফিসিয়াল সোশ্যাল প্রোফাইল, মিডিয়া, গ্যালারি, কনটেন্ট ক্রিয়েটর পরিচিতি এবং যোগাযোগের তথ্য এক জায়গায়।",
+    "descriptionEn": "Official website of Solas Belal, a Bangladeshi content creator. Explore his biography, official social profiles, media, gallery, creator journey and contact information.",
+    "language": "bn-BD",
+    "defaultLanguage": "bn-BD",
+    "alternateLanguage": "en-BD",
+    "locale": "bn_BD",
+    "alternateLocale": "en_BD",
+    "country": "Bangladesh"
+  },
+
+  "brand": {
+    "primaryName": "সোলাস বেলাল",
+    "primaryNameBn": "সোলাস বেলাল",
+    "primaryNameEn": "Solas Belal",
+    "realName": "বেলাল উদ্দিন",
+    "realNameBn": "বেলাল উদ্দিন",
+    "realNameEn": "Belal Uddin",
+    "shortName": "SB",
+    "primaryColor": "#030812",
+    "secondaryColor": "#111827",
+    "accentColor": "#0099FF",
+    "textColor": "#F8FAFC"
+  },
+
+  "github": {
+    "username": "solasbelal",
+    "repository": "solas-belal",
+    "repositoryUrl": "https://github.com/solasbelal/solas-belal",
+    "pagesUrl": "https://solasbelal.github.io/solas-belal/"
+  },
+
+  "urls": {
+    "origin": "https://solasbelal.github.io",
+    "basePath": "/solas-belal/",
+    "baseUrl": "https://solasbelal.github.io/solas-belal/",
+
+    "home": "https://solasbelal.github.io/solas-belal/",
+    "about": "https://solasbelal.github.io/solas-belal/about/",
+    "biography": "https://solasbelal.github.io/solas-belal/biography/",
+    "socials": "https://solasbelal.github.io/solas-belal/socials/",
+    "media": "https://solasbelal.github.io/solas-belal/media/",
+    "gallery": "https://solasbelal.github.io/solas-belal/gallery/",
+    "contact": "https://solasbelal.github.io/solas-belal/contact/",
+    "privacy": "https://solasbelal.github.io/solas-belal/privacy/",
+    "terms": "https://solasbelal.github.io/solas-belal/terms/",
+
+    "englishBasePath": "/solas-belal/en/",
+    "englishBaseUrl": "https://solasbelal.github.io/solas-belal/en/",
+
+    "english": {
+      "home": "https://solasbelal.github.io/solas-belal/en/",
+      "about": "https://solasbelal.github.io/solas-belal/en/about/",
+      "biography": "https://solasbelal.github.io/solas-belal/en/biography/",
+      "socials": "https://solasbelal.github.io/solas-belal/en/socials/",
+      "media": "https://solasbelal.github.io/solas-belal/en/media/",
+      "gallery": "https://solasbelal.github.io/solas-belal/en/gallery/",
+      "contact": "https://solasbelal.github.io/solas-belal/en/contact/",
+      "privacy": "https://solasbelal.github.io/solas-belal/en/privacy/",
+      "terms": "https://solasbelal.github.io/solas-belal/en/terms/"
+    }
+  },
+
+  "languageUrls": {
+    "bn-BD": {
+      "home": "/solas-belal/",
+      "about": "/solas-belal/about/",
+      "biography": "/solas-belal/biography/",
+      "socials": "/solas-belal/socials/",
+      "media": "/solas-belal/media/",
+      "gallery": "/solas-belal/gallery/",
+      "contact": "/solas-belal/contact/",
+      "privacy": "/solas-belal/privacy/",
+      "terms": "/solas-belal/terms/"
+    },
+
+    "en-BD": {
+      "home": "/solas-belal/en/",
+      "about": "/solas-belal/en/about/",
+      "biography": "/solas-belal/en/biography/",
+      "socials": "/solas-belal/en/socials/",
+      "media": "/solas-belal/en/media/",
+      "gallery": "/solas-belal/en/gallery/",
+      "contact": "/solas-belal/en/contact/",
+      "privacy": "/solas-belal/en/privacy/",
+      "terms": "/solas-belal/en/terms/"
+    }
+  },
+
+  "hreflang": {
+    "default": "bn-BD",
+    "bengali": "bn-BD",
+    "english": "en-BD",
+    "xDefault": "bn-BD"
+  },
+
+  "paths": {
+    "assets": "/solas-belal/assets/",
+    "css": "/solas-belal/assets/css/",
+    "js": "/solas-belal/assets/js/",
+    "images": "/solas-belal/assets/images/",
+    "profileImages": "/solas-belal/assets/images/profile/",
+    "heroImages": "/solas-belal/assets/images/hero/",
+    "galleryImages": "/solas-belal/assets/images/gallery/",
+    "mediaImages": "/solas-belal/assets/images/media/",
+    "socialImages": "/solas-belal/assets/images/social/",
+    "seoImages": "/solas-belal/assets/images/seo/",
+    "icons": "/solas-belal/assets/icons/",
+    "data": "/solas-belal/data/",
+    "english": "/solas-belal/en/"
+  },
+
+  "seo": {
+    "titleTemplate": "%s | সোলাস বেলাল",
+    "titleTemplateBn": "%s | সোলাস বেলাল",
+    "titleTemplateEn": "%s | Solas Belal",
+
+    "defaultTitle": "সোলাস বেলাল | বাংলাদেশি কনটেন্ট ক্রিয়েটর",
+    "defaultTitleBn": "সোলাস বেলাল | বাংলাদেশি কনটেন্ট ক্রিয়েটর",
+    "defaultTitleEn": "Solas Belal | Bangladeshi Content Creator",
+
+    "defaultDescription": "সোলাস বেলালের অফিসিয়াল ওয়েবসাইট। জীবনী, অফিসিয়াল সোশ্যাল প্রোফাইল, মিডিয়া, গ্যালারি এবং কনটেন্ট ক্রিয়েটর হিসেবে তাঁর যাত্রা সম্পর্কে জানুন।",
+    "defaultDescriptionBn": "সোলাস বেলালের অফিসিয়াল ওয়েবসাইট। জীবনী, অফিসিয়াল সোশ্যাল প্রোফাইল, মিডিয়া, গ্যালারি এবং কনটেন্ট ক্রিয়েটর হিসেবে তাঁর যাত্রা সম্পর্কে জানুন।",
+    "defaultDescriptionEn": "Official website of Solas Belal, a Bangladeshi content creator. Explore his biography, official social profiles, media, gallery and creator journey.",
+
+    "canonicalUrl": "https://solasbelal.github.io/solas-belal/",
+
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+
+    "author": "Solas Belal",
+
+    "themeColor": "#030812",
+
+    "ogImage": "https://solasbelal.github.io/solas-belal/assets/images/seo/og-home.jpg",
+    "ogImageWidth": 1200,
+    "ogImageHeight": 630,
+
+    "ogLocale": "bn_BD",
+    "ogAlternateLocale": "en_BD",
+
+    "twitterCard": "summary_large_image",
+
+    "keywords": [
+      "Solas Belal",
+      "সোলাস বেলাল",
+      "Belal Uddin",
+      "বেলাল উদ্দিন",
+      "Solas Belal Official",
+      "Solas Belal Content Creator",
+      "Bangladeshi Content Creator"
+    ]
+  },
+
+  "structuredData": {
+    "personType": "Person",
+    "profilePageType": "ProfilePage",
+
+    "name": "Belal Uddin",
+    "nameBn": "বেলাল উদ্দিন",
+    "nameEn": "Belal Uddin",
+
+    "alternateName": [
+      "Solas Belal",
+      "সোলাস বেলাল",
+      "বেলাল উদ্দিন"
+    ],
+
+    "jobTitle": "কনটেন্ট ক্রিয়েটর",
+    "jobTitleBn": "কনটেন্ট ক্রিয়েটর",
+    "jobTitleEn": "Content Creator",
+
+    "nationality": "Bangladeshi",
+
+    "inLanguage": "bn-BD",
+    "alternateInLanguage": "en-BD",
+
+    "image": "https://solasbelal.github.io/solas-belal/assets/images/profile/solas-belal-official-profile.webp"
+  },
+
+  "pwa": {
+    "manifest": "/solas-belal/site.webmanifest",
+    "themeColor": "#030812",
+    "backgroundColor": "#030812",
+    "display": "standalone",
+    "startUrl": "/solas-belal/",
+    "scope": "/solas-belal/",
+    "language": "bn-BD"
+  },
+
+  "contact": {
+    "publicEmail": "solasbelalnc@gmail.com",
+    "businessEmail": "solasbelalnc@gmail.com"
+  },
+
+  "socials": {
+    "handle": "@Solasbelal",
+    "tiktok": "https://www.tiktok.com/@solasbelal",
+    "instagram": "https://www.instagram.com/solasbelal/",
+    "facebook": "https://www.facebook.com/solasbelal",
+    "threads": "https://www.threads.com/@solasbelal"
+  },
+
+  "features": {
+    "defaultLanguageBengali": true,
+    "englishMirror": true,
+    "languageSwitcher": true,
+    "darkTheme": true,
+    "responsiveNavigation": true,
+    "lazyLoadImages": true,
+    "reducedMotionSupport": true,
+    "structuredData": true,
+    "openGraph": true,
+    "twitterCards": true,
+    "hreflang": true
+  },
+
+  "version": "1.1.0"
+}
