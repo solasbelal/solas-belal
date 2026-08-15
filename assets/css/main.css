@@ -1,0 +1,1848 @@
+/* ==========================================================================
+   SOLAS BELAL — GLOBAL STYLES
+   File: assets/css/main.css
+   Project: https://solasbelal.github.io/solas-belal/
+   ========================================================================== */
+
+
+/* ==========================================================================
+   01. DESIGN TOKENS
+   ========================================================================== */
+
+:root {
+  /* Brand */
+  --color-brand: #0099ff;
+  --color-brand-rgb: 0, 153, 255;
+  --color-brand-light: #42b4ff;
+  --color-brand-dark: #0077c8;
+
+  /* Backgrounds */
+  --color-bg: #030812;
+  --color-bg-soft: #07101d;
+  --color-bg-elevated: #0b1422;
+  --color-surface: #0f1928;
+  --color-surface-hover: #142235;
+
+  /* Text */
+  --color-text: #f8fafc;
+  --color-text-soft: #d9e1ea;
+  --color-text-muted: #a3b1c4;
+  --color-text-faint: #8292a8;
+
+  /* Borders */
+  --color-border: rgba(148, 163, 184, 0.16);
+  --color-border-strong: rgba(148, 163, 184, 0.28);
+  --color-brand-border: rgba(var(--color-brand-rgb), 0.35);
+
+  /* Status */
+  --color-success: #22c55e;
+  --color-warning: #f59e0b;
+  --color-danger: #ef4444;
+
+  /* Gradients */
+  --gradient-brand:
+    linear-gradient(
+      135deg,
+      #0099ff 0%,
+      #2eafff 45%,
+      #72caff 100%
+    );
+
+  --gradient-page:
+    radial-gradient(
+      circle at 85% 5%,
+      rgba(0, 153, 255, 0.10),
+      transparent 28rem
+    ),
+    radial-gradient(
+      circle at 5% 65%,
+      rgba(0, 153, 255, 0.055),
+      transparent 32rem
+    ),
+    #030812;
+
+  --gradient-surface:
+    linear-gradient(
+      145deg,
+      rgba(15, 25, 40, 0.96),
+      rgba(7, 16, 29, 0.96)
+    );
+
+  /* Typography */
+  --font-primary:
+    Inter,
+    "Noto Sans Bengali",
+    "Hind Siliguri",
+    "Segoe UI",
+    Roboto,
+    Helvetica,
+    Arial,
+    sans-serif;
+
+  --font-display:
+    Inter,
+    "Noto Sans Bengali",
+    "Hind Siliguri",
+    "Segoe UI",
+    Roboto,
+    Helvetica,
+    Arial,
+    sans-serif;
+
+  --font-bengali:
+    "Noto Sans Bengali",
+    "Hind Siliguri",
+    Inter,
+    "Segoe UI",
+    Roboto,
+    Helvetica,
+    Arial,
+    sans-serif;
+
+  --font-mono:
+    "SFMono-Regular",
+    Consolas,
+    "Liberation Mono",
+    Menlo,
+    monospace;
+
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-md: 1.0625rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --font-size-2xl: 1.5rem;
+  --font-size-3xl: 1.875rem;
+  --font-size-4xl: 2.25rem;
+  --font-size-5xl: 3rem;
+  --font-size-6xl: 3.75rem;
+
+  --line-height-tight: 1.1;
+  --line-height-heading: 1.2;
+  --line-height-normal: 1.65;
+  --line-height-relaxed: 1.8;
+
+  --letter-spacing-tight: -0.035em;
+  --letter-spacing-heading: -0.02em;
+  --letter-spacing-wide: 0.08em;
+  --letter-spacing-wider: 0.14em;
+
+  /* Bengali Typography */
+  --bn-line-height-tight: 1.2;
+  --bn-line-height-heading: 1.3;
+  --bn-line-height-normal: 1.75;
+  --bn-line-height-relaxed: 1.9;
+
+  /* Spacing */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-7: 1.75rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-14: 3.5rem;
+  --space-16: 4rem;
+  --space-20: 5rem;
+  --space-24: 6rem;
+  --space-28: 7rem;
+  --space-32: 8rem;
+
+  /* Layout */
+  --container-max: 1200px;
+  --container-wide: 1380px;
+  --container-narrow: 800px;
+  --container-padding: 1rem;
+
+  --header-height: 72px;
+
+  /* Radius */
+  --radius-xs: 0.375rem;
+  --radius-sm: 0.625rem;
+  --radius-md: 0.875rem;
+  --radius-lg: 1.25rem;
+  --radius-xl: 1.75rem;
+  --radius-2xl: 2.25rem;
+  --radius-pill: 999px;
+
+  /* Shadows */
+  --shadow-sm:
+    0 8px 24px rgba(0, 0, 0, 0.18);
+
+  --shadow-md:
+    0 18px 48px rgba(0, 0, 0, 0.28);
+
+  --shadow-lg:
+    0 30px 80px rgba(0, 0, 0, 0.38);
+
+  --shadow-brand:
+    0 18px 50px rgba(var(--color-brand-rgb), 0.18);
+
+  /* Motion */
+  --transition-fast: 160ms ease;
+  --transition-base: 240ms ease;
+  --transition-slow: 420ms ease;
+
+  /* Layering */
+  --z-base: 1;
+  --z-raised: 10;
+  --z-header: 1000;
+  --z-overlay: 1100;
+  --z-modal: 1200;
+  --z-toast: 1300;
+}
+
+
+/* ==========================================================================
+   02. RESET
+   ========================================================================== */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  width: 100%;
+  min-width: 320px;
+  max-width: 100%;
+
+  overflow-x: hidden;
+  overflow-x: clip;
+
+  scroll-behavior: smooth;
+  scroll-padding-top: calc(var(--header-height) + 1rem);
+
+  text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+ul[role="list"],
+ol[role="list"] {
+  list-style: none;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+button {
+  border: 0;
+}
+
+img,
+picture,
+svg,
+canvas,
+video {
+  display: block;
+  max-width: 100%;
+}
+
+img {
+  height: auto;
+}
+
+iframe {
+  max-width: 100%;
+  border: 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+address {
+  font-style: normal;
+}
+
+
+/* ==========================================================================
+   03. DOCUMENT
+   ========================================================================== */
+
+html {
+  color-scheme: dark;
+  background: var(--color-bg);
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  max-width: 100%;
+
+  overflow-x: hidden;
+  overflow-x: clip;
+
+  background: var(--gradient-page);
+
+  color: var(--color-text);
+
+  font-family: var(--font-primary);
+  font-size: var(--font-size-base);
+  font-weight: 400;
+
+  line-height: var(--line-height-normal);
+
+  text-rendering: optimizeLegibility;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body.menu-open {
+  overflow: hidden;
+}
+
+main {
+  display: block;
+
+  width: 100%;
+  min-height: 60vh;
+  max-width: 100%;
+
+  overflow-x: clip;
+}
+
+::selection {
+  background: rgba(var(--color-brand-rgb), 0.28);
+  color: #ffffff;
+}
+
+
+/* ==========================================================================
+   04. ACCESSIBILITY
+   ========================================================================== */
+
+:focus {
+  outline: none;
+}
+
+:focus-visible {
+  outline: 3px solid rgba(var(--color-brand-rgb), 0.72);
+  outline-offset: 3px;
+}
+
+.skip-link {
+  position: fixed;
+  top: var(--space-3);
+  left: var(--space-3);
+
+  z-index: var(--z-toast);
+
+  padding: 0.75rem 1rem;
+
+  border-radius: var(--radius-sm);
+
+  background: var(--color-brand);
+
+  color: #ffffff;
+
+  font-weight: 700;
+
+  transform: translateY(-160%);
+
+  transition: transform var(--transition-fast);
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+}
+
+.visually-hidden {
+  position: absolute !important;
+
+  width: 1px !important;
+  height: 1px !important;
+
+  padding: 0 !important;
+  margin: -1px !important;
+
+  overflow: hidden !important;
+
+  clip: rect(0, 0, 0, 0) !important;
+
+  white-space: nowrap !important;
+
+  border: 0 !important;
+}
+
+
+/* ==========================================================================
+   05. TYPOGRAPHY
+   ========================================================================== */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--color-text);
+
+  font-family: var(--font-display);
+  font-weight: 800;
+
+  line-height: var(--line-height-heading);
+
+  letter-spacing: var(--letter-spacing-heading);
+}
+
+h1 {
+  font-size: clamp(2.5rem, 7vw, 5.5rem);
+
+  line-height: 0.98;
+
+  letter-spacing: var(--letter-spacing-tight);
+}
+
+h2 {
+  font-size: clamp(2rem, 5vw, 3.5rem);
+}
+
+h3 {
+  font-size: clamp(1.4rem, 3vw, 2rem);
+}
+
+h4 {
+  font-size: clamp(1.15rem, 2vw, 1.5rem);
+}
+
+h5 {
+  font-size: var(--font-size-lg);
+}
+
+h6 {
+  font-size: var(--font-size-base);
+}
+
+p {
+  color: var(--color-text-soft);
+}
+
+strong,
+b {
+  color: var(--color-text);
+
+  font-weight: 700;
+}
+
+small {
+  font-size: var(--font-size-sm);
+}
+
+mark {
+  padding: 0.1em 0.25em;
+
+  border-radius: 0.2em;
+
+  background: rgba(var(--color-brand-rgb), 0.2);
+
+  color: var(--color-text);
+}
+
+code,
+kbd,
+samp,
+pre {
+  font-family: var(--font-mono);
+}
+
+code {
+  font-size: 0.9em;
+}
+
+blockquote {
+  padding-left: var(--space-5);
+
+  border-left: 3px solid var(--color-brand);
+
+  color: var(--color-text-soft);
+
+  font-size: var(--font-size-lg);
+}
+
+
+/* ==========================================================================
+   06. LINKS
+   ========================================================================== */
+
+.text-link {
+  position: relative;
+
+  color: var(--color-brand-light);
+
+  font-weight: 600;
+
+  transition:
+    color var(--transition-fast),
+    opacity var(--transition-fast);
+}
+
+.text-link:hover {
+  color: #ffffff;
+}
+
+.text-link::after {
+  position: absolute;
+
+  right: 0;
+  bottom: -0.15rem;
+  left: 0;
+
+  height: 1px;
+
+  background: currentColor;
+
+  content: "";
+
+  transform: scaleX(0);
+  transform-origin: right;
+
+  transition: transform var(--transition-base);
+}
+
+.text-link:hover::after,
+.text-link:focus-visible::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+
+/* ==========================================================================
+   07. CONTAINERS
+   ========================================================================== */
+
+.container {
+  width: min(
+    calc(100% - (var(--container-padding) * 2)),
+    var(--container-max)
+  );
+
+  margin-inline: auto;
+}
+
+.container--wide {
+  width: min(
+    calc(100% - (var(--container-padding) * 2)),
+    var(--container-wide)
+  );
+
+  margin-inline: auto;
+}
+
+.container--narrow {
+  width: min(
+    calc(100% - (var(--container-padding) * 2)),
+    var(--container-narrow)
+  );
+
+  margin-inline: auto;
+}
+
+.page-shell {
+  width: 100%;
+  min-height: 100vh;
+  max-width: 100%;
+}
+
+.content-wrap {
+  width: 100%;
+  max-width: var(--container-narrow);
+}
+
+
+/* ==========================================================================
+   08. SECTION SYSTEM
+   ========================================================================== */
+
+.section {
+  position: relative;
+
+  padding-block: var(--space-20);
+}
+
+.section--sm {
+  padding-block: var(--space-14);
+}
+
+.section--lg {
+  padding-block: var(--space-28);
+}
+
+.section--compact {
+  padding-block: var(--space-10);
+}
+
+.section--flush {
+  padding-block: 0;
+}
+
+.section--surface {
+  background:
+    rgba(7, 16, 29, 0.72);
+}
+
+.section--soft {
+  background:
+    linear-gradient(
+      180deg,
+      rgba(7, 16, 29, 0.42),
+      rgba(7, 16, 29, 0.22)
+    );
+
+  border-top:
+    1px solid
+    rgba(148, 163, 184, 0.07);
+
+  border-bottom:
+    1px solid
+    rgba(148, 163, 184, 0.07);
+}
+
+.section--bordered {
+  border-top: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.section-header {
+  max-width: 760px;
+
+  margin-bottom: var(--space-10);
+}
+
+.section-header--center {
+  margin-inline: auto;
+
+  text-align: center;
+}
+
+.section-title {
+  margin-top: var(--space-3);
+}
+
+.section-description {
+  max-width: 680px;
+
+  margin-top: var(--space-5);
+
+  color: var(--color-text-muted);
+
+  font-size:
+    clamp(
+      1rem,
+      2vw,
+      1.125rem
+    );
+
+  line-height:
+    var(--line-height-relaxed);
+}
+
+.section-header--center
+.section-description {
+  margin-inline: auto;
+}
+
+
+/* ==========================================================================
+   09. EYEBROW / LABEL
+   ========================================================================== */
+
+.eyebrow {
+  display: inline-flex;
+
+  align-items: center;
+
+  gap: var(--space-2);
+
+  color: var(--color-brand-light);
+
+  font-size: var(--font-size-xs);
+  font-weight: 800;
+
+  line-height: 1;
+
+  letter-spacing:
+    var(--letter-spacing-wider);
+
+  text-transform: uppercase;
+}
+
+.eyebrow::before {
+  width: 1.75rem;
+  height: 2px;
+
+  flex: 0 0 1.75rem;
+
+  border-radius:
+    var(--radius-pill);
+
+  background:
+    var(--color-brand);
+
+  content: "";
+}
+
+
+/* ==========================================================================
+   10. TEXT UTILITIES
+   ========================================================================== */
+
+.text-brand {
+  color: var(--color-brand-light);
+}
+
+.text-primary {
+  color: var(--color-text);
+}
+
+.text-secondary {
+  color: var(--color-text-soft);
+}
+
+.text-muted {
+  color: var(--color-text-muted);
+}
+
+.text-faint {
+  color: var(--color-text-faint);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+.text-pretty {
+  text-wrap: pretty;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+
+/* ==========================================================================
+   11. BRAND TEXT
+   ========================================================================== */
+
+.brand-gradient-text {
+  background:
+    var(--gradient-brand);
+
+  background-clip: text;
+
+  color: transparent;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.brand-name {
+  color: var(--color-text);
+
+  font-weight: 900;
+
+  letter-spacing:
+    var(--letter-spacing-tight);
+}
+
+.brand-name .brand-accent {
+  color: var(--color-brand);
+}
+
+
+/* ==========================================================================
+   12. GLOBAL SURFACE
+   ========================================================================== */
+
+.surface {
+  border:
+    1px solid
+    var(--color-border);
+
+  border-radius:
+    var(--radius-lg);
+
+  background:
+    var(--gradient-surface);
+
+  box-shadow:
+    var(--shadow-sm);
+}
+
+.surface--raised {
+  box-shadow:
+    var(--shadow-md);
+}
+
+.surface--brand {
+  border-color:
+    var(--color-brand-border);
+}
+
+
+/* ==========================================================================
+   13. FLEX / GRID UTILITIES
+   ========================================================================== */
+
+.stack {
+  display: flex;
+
+  flex-direction: column;
+}
+
+.stack--xs {
+  gap: var(--space-2);
+}
+
+.stack--sm {
+  gap: var(--space-4);
+}
+
+.stack--md {
+  gap: var(--space-6);
+}
+
+.stack--lg {
+  gap: var(--space-10);
+}
+
+.cluster {
+  display: flex;
+
+  flex-wrap: wrap;
+
+  align-items: center;
+
+  gap: var(--space-4);
+}
+
+.cluster--center {
+  justify-content: center;
+}
+
+.cluster--between {
+  justify-content:
+    space-between;
+}
+
+.grid {
+  display: grid;
+
+  gap: var(--space-6);
+}
+
+.grid--2,
+.grid--3,
+.grid--4 {
+  grid-template-columns: 1fr;
+}
+
+
+/* ==========================================================================
+   14. MEDIA
+   ========================================================================== */
+
+.media-cover {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+}
+
+.media-contain {
+  width: 100%;
+  height: 100%;
+
+  object-fit: contain;
+}
+
+.image-frame {
+  position: relative;
+
+  overflow: hidden;
+
+  border-radius:
+    var(--radius-lg);
+
+  background:
+    var(--color-bg-soft);
+}
+
+.image-frame img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+}
+
+.image-frame::after {
+  position: absolute;
+
+  inset: 0;
+
+  pointer-events: none;
+
+  background:
+    linear-gradient(
+      to top,
+      rgba(3, 8, 18, 0.18),
+      transparent 40%
+    );
+
+  content: "";
+}
+
+
+/* ==========================================================================
+   15. LISTS
+   ========================================================================== */
+
+.clean-list {
+  list-style: none;
+}
+
+.prose-list {
+  display: grid;
+
+  gap: var(--space-3);
+
+  padding-left: 1.25rem;
+
+  color:
+    var(--color-text-soft);
+}
+
+.prose-list li::marker {
+  color:
+    var(--color-brand);
+}
+
+
+/* ==========================================================================
+   16. FORM BASE
+   ========================================================================== */
+
+label {
+  display: inline-block;
+
+  color:
+    var(--color-text);
+
+  font-size:
+    var(--font-size-sm);
+
+  font-weight: 650;
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+
+  border:
+    1px solid
+    var(--color-border);
+
+  border-radius:
+    var(--radius-sm);
+
+  background:
+    rgba(7, 16, 29, 0.82);
+
+  color:
+    var(--color-text);
+
+  transition:
+    border-color var(--transition-fast),
+    box-shadow var(--transition-fast),
+    background-color var(--transition-fast);
+}
+
+input,
+select {
+  min-height: 3rem;
+
+  padding:
+    0.75rem
+    0.95rem;
+}
+
+textarea {
+  min-height: 9rem;
+
+  padding:
+    0.9rem
+    0.95rem;
+
+  resize: vertical;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color:
+    var(--color-text-faint);
+
+  opacity: 1;
+}
+
+input:hover,
+textarea:hover,
+select:hover {
+  border-color:
+    var(--color-border-strong);
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  border-color:
+    var(--color-brand);
+
+  box-shadow:
+    0 0 0 4px
+    rgba(
+      var(--color-brand-rgb),
+      0.12
+    );
+
+  background:
+    var(--color-bg-soft);
+}
+
+input:disabled,
+textarea:disabled,
+select:disabled {
+  cursor: not-allowed;
+
+  opacity: 0.5;
+}
+
+
+/* ==========================================================================
+   17. HORIZONTAL RULE
+   ========================================================================== */
+
+hr {
+  height: 1px;
+
+  margin-block:
+    var(--space-8);
+
+  border: 0;
+
+  background:
+    var(--color-border);
+}
+
+
+/* ==========================================================================
+   18. PAGE INTRO
+   ========================================================================== */
+
+.page-intro {
+  position: relative;
+
+  isolation: isolate;
+
+  width: 100%;
+  max-width: 100%;
+
+  padding-top:
+    calc(
+      var(--header-height) +
+      var(--space-16)
+    );
+
+  padding-bottom:
+    var(--space-16);
+
+  /*
+   * Prevent decorative elements from
+   * increasing document width.
+   */
+  overflow: hidden;
+  overflow: clip;
+}
+
+.page-intro__inner {
+  max-width: 840px;
+}
+
+.page-intro__title {
+  margin-top:
+    var(--space-4);
+}
+
+.page-intro__description {
+  max-width: 700px;
+
+  margin-top:
+    var(--space-6);
+
+  color:
+    var(--color-text-muted);
+
+  font-size:
+    clamp(
+      1rem,
+      2.2vw,
+      1.2rem
+    );
+
+  line-height:
+    var(--line-height-relaxed);
+}
+
+
+/* ==========================================================================
+   19. BACKGROUND DECORATION
+   ========================================================================== */
+
+.glow {
+  position: absolute;
+
+  z-index: -1;
+
+  width: 24rem;
+  height: 24rem;
+
+  border-radius: 50%;
+
+  background:
+    rgba(
+      var(--color-brand-rgb),
+      0.09
+    );
+
+  filter:
+    blur(90px);
+
+  pointer-events: none;
+}
+
+.glow--top-right {
+  top: -10rem;
+  right: -8rem;
+}
+
+.glow--bottom-left {
+  bottom: -12rem;
+  left: -8rem;
+}
+
+.noise-overlay {
+  position: fixed;
+
+  inset: 0;
+
+  z-index: 9999;
+
+  pointer-events: none;
+
+  opacity: 0.018;
+}
+
+
+/* ==========================================================================
+   20. SPACING UTILITIES
+   ========================================================================== */
+
+.mt-0 {
+  margin-top: 0;
+}
+
+.mt-2 {
+  margin-top:
+    var(--space-2);
+}
+
+.mt-4 {
+  margin-top:
+    var(--space-4);
+}
+
+.mt-6 {
+  margin-top:
+    var(--space-6);
+}
+
+.mt-8 {
+  margin-top:
+    var(--space-8);
+}
+
+.mt-10 {
+  margin-top:
+    var(--space-10);
+}
+
+.mt-12 {
+  margin-top:
+    var(--space-12);
+}
+
+.mb-0 {
+  margin-bottom: 0;
+}
+
+.mb-4 {
+  margin-bottom:
+    var(--space-4);
+}
+
+.mb-6 {
+  margin-bottom:
+    var(--space-6);
+}
+
+.mb-8 {
+  margin-bottom:
+    var(--space-8);
+}
+
+.mb-10 {
+  margin-bottom:
+    var(--space-10);
+}
+
+
+/* ==========================================================================
+   21. DISPLAY UTILITIES
+   ========================================================================== */
+
+.hidden {
+  display: none !important;
+}
+
+.block {
+  display: block;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.flex {
+  display: flex;
+}
+
+.inline-flex {
+  display: inline-flex;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+
+/* ==========================================================================
+   22. WIDTH UTILITIES
+   ========================================================================== */
+
+.w-full {
+  width: 100%;
+}
+
+.max-w-none {
+  max-width: none;
+}
+
+.max-w-prose {
+  max-width: 70ch;
+}
+
+.mx-auto {
+  margin-inline: auto;
+}
+
+
+/* ==========================================================================
+   23. GLOBAL PROSE
+   ========================================================================== */
+
+.prose {
+  max-width: 74ch;
+
+  color:
+    var(--color-text-soft);
+}
+
+.prose > * + * {
+  margin-top:
+    var(--space-5);
+}
+
+.prose h2,
+.prose h3,
+.prose h4 {
+  margin-top:
+    var(--space-10);
+
+  color:
+    var(--color-text);
+}
+
+.prose h2 + *,
+.prose h3 + *,
+.prose h4 + * {
+  margin-top:
+    var(--space-4);
+}
+
+.prose p {
+  color:
+    var(--color-text-soft);
+
+  line-height:
+    var(--line-height-relaxed);
+}
+
+.prose ul,
+.prose ol {
+  display: grid;
+
+  gap:
+    var(--space-3);
+
+  margin-top:
+    var(--space-5);
+
+  padding-left:
+    1.4rem;
+
+  color:
+    var(--color-text-soft);
+}
+
+.prose ul {
+  list-style: disc;
+}
+
+.prose ol {
+  list-style: decimal;
+}
+
+.prose li {
+  padding-left:
+    0.15rem;
+
+  line-height:
+    var(--line-height-relaxed);
+}
+
+.prose li::marker {
+  color:
+    var(--color-brand-light);
+}
+
+.prose a {
+  color:
+    var(--color-brand-light);
+
+  text-decoration:
+    underline;
+
+  text-decoration-color:
+    rgba(
+      var(--color-brand-rgb),
+      0.45
+    );
+
+  text-underline-offset:
+    0.2em;
+}
+
+.prose a:hover {
+  text-decoration-color:
+    currentColor;
+}
+
+.prose strong {
+  color:
+    var(--color-text);
+}
+
+.prose img {
+  margin-block:
+    var(--space-8);
+
+  border-radius:
+    var(--radius-lg);
+}
+
+
+/* ==========================================================================
+   24. BENGALI LANGUAGE TYPOGRAPHY
+   Bengali pages use <html lang="bn-BD">
+   ========================================================================== */
+
+html:lang(bn) body {
+  font-family:
+    var(--font-bengali);
+
+  line-height:
+    var(--bn-line-height-normal);
+}
+
+html:lang(bn) h1,
+html:lang(bn) h2,
+html:lang(bn) h3,
+html:lang(bn) h4,
+html:lang(bn) h5,
+html:lang(bn) h6 {
+  font-family:
+    var(--font-bengali);
+
+  line-height:
+    var(--bn-line-height-heading);
+
+  letter-spacing: 0;
+}
+
+html:lang(bn) h1 {
+  line-height:
+    var(--bn-line-height-tight);
+
+  letter-spacing: 0;
+}
+
+html:lang(bn) p,
+html:lang(bn) li,
+html:lang(bn) label,
+html:lang(bn) input,
+html:lang(bn) textarea,
+html:lang(bn) select,
+html:lang(bn) button {
+  font-family:
+    var(--font-bengali);
+}
+
+html:lang(bn) p {
+  line-height:
+    var(--bn-line-height-normal);
+}
+
+html:lang(bn)
+.section-description,
+html:lang(bn)
+.page-intro__description,
+html:lang(bn)
+.prose p,
+html:lang(bn)
+.prose li {
+  line-height:
+    var(--bn-line-height-relaxed);
+}
+
+html:lang(bn)
+.eyebrow {
+  font-family:
+    var(--font-bengali);
+
+  line-height: 1.4;
+
+  letter-spacing: 0;
+
+  text-transform: none;
+}
+
+html:lang(bn)
+.brand-name {
+  font-family:
+    var(--font-bengali);
+
+  letter-spacing: 0;
+}
+
+html:lang(bn)
+.uppercase {
+  letter-spacing: 0;
+
+  text-transform: none;
+}
+
+html:lang(bn)
+.text-balance {
+  text-wrap: balance;
+}
+
+html:lang(bn)
+.page-intro__title {
+  letter-spacing: 0;
+}
+
+html:lang(bn)
+blockquote {
+  line-height:
+    var(--bn-line-height-relaxed);
+}
+
+html:lang(bn)
+input,
+html:lang(bn)
+textarea,
+html:lang(bn)
+select {
+  line-height: 1.55;
+}
+
+html:lang(bn)
+input::placeholder,
+html:lang(bn)
+textarea::placeholder {
+  font-family:
+    var(--font-bengali);
+}
+
+html:lang(bn)
+.prose {
+  max-width: 76ch;
+}
+
+html:lang(bn)
+.prose ul,
+html:lang(bn)
+.prose ol {
+  padding-left: 1.5rem;
+}
+
+
+/* ==========================================================================
+   25. MIXED-LANGUAGE CONTENT
+   Keep platform names / handles / English identifiers clean
+   ========================================================================== */
+
+:lang(en) {
+  font-family:
+    Inter,
+    "Segoe UI",
+    Roboto,
+    Helvetica,
+    Arial,
+    sans-serif;
+}
+
+[lang="en"],
+[data-language="en"] {
+  font-family:
+    Inter,
+    "Segoe UI",
+    Roboto,
+    Helvetica,
+    Arial,
+    sans-serif;
+}
+
+code,
+kbd,
+samp,
+pre,
+input[type="email"] {
+  letter-spacing: normal;
+}
+
+
+/* ==========================================================================
+   26. CUSTOM SCROLLBAR
+   ========================================================================== */
+
+@media (hover: hover) and (pointer: fine) {
+  * {
+    scrollbar-width: thin;
+
+    scrollbar-color:
+      rgba(
+        var(--color-brand-rgb),
+        0.45
+      )
+      var(--color-bg-soft);
+  }
+
+  *::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background:
+      var(--color-bg-soft);
+  }
+
+  *::-webkit-scrollbar-thumb {
+    border:
+      2px solid
+      var(--color-bg-soft);
+
+    border-radius:
+      var(--radius-pill);
+
+    background:
+      rgba(
+        var(--color-brand-rgb),
+        0.42
+      );
+  }
+
+  *::-webkit-scrollbar-thumb:hover {
+    background:
+      rgba(
+        var(--color-brand-rgb),
+        0.65
+      );
+  }
+}
+
+
+/* ==========================================================================
+   27. MOBILE / SMALL SCREEN REFINEMENTS
+   ========================================================================== */
+
+@media (max-width: 639px) {
+  .section {
+    padding-block:
+      var(--space-16);
+  }
+
+  .section--sm {
+    padding-block:
+      var(--space-12);
+  }
+
+  .section--lg {
+    padding-block:
+      var(--space-20);
+  }
+
+  .section--compact {
+    padding-block:
+      var(--space-8);
+  }
+
+  .section-header {
+    margin-bottom:
+      var(--space-8);
+  }
+
+  .page-intro {
+    padding-top:
+      calc(
+        var(--header-height) +
+        var(--space-12)
+      );
+
+    padding-bottom:
+      var(--space-12);
+  }
+}
+
+
+/* ==========================================================================
+   28. TABLET BASE ENHANCEMENTS
+   ========================================================================== */
+
+@media (min-width: 640px) {
+  :root {
+    --container-padding: 1.5rem;
+  }
+
+  .grid--2 {
+    grid-template-columns:
+      repeat(
+        2,
+        minmax(0, 1fr)
+      );
+  }
+}
+
+
+/* ==========================================================================
+   29. DESKTOP BASE ENHANCEMENTS
+   ========================================================================== */
+
+@media (min-width: 900px) {
+  :root {
+    --container-padding: 2rem;
+    --header-height: 80px;
+  }
+
+  .section {
+    padding-block:
+      var(--space-24);
+  }
+
+  .section--sm {
+    padding-block:
+      var(--space-16);
+  }
+
+  .section--lg {
+    padding-block:
+      var(--space-32);
+  }
+
+  .section--compact {
+    padding-block:
+      var(--space-14);
+  }
+
+  .grid--3 {
+    grid-template-columns:
+      repeat(
+        3,
+        minmax(0, 1fr)
+      );
+  }
+
+  .grid--4 {
+    grid-template-columns:
+      repeat(
+        4,
+        minmax(0, 1fr)
+      );
+  }
+}
+
+
+/* ==========================================================================
+   30. LARGE SCREEN
+   ========================================================================== */
+
+@media (min-width: 1280px) {
+  :root {
+    --container-padding: 2.5rem;
+  }
+}
+
+
+/* ==========================================================================
+   31. REDUCED MOTION
+   ========================================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    scroll-behavior:
+      auto !important;
+
+    transition-duration:
+      0.01ms !important;
+
+    animation-duration:
+      0.01ms !important;
+
+    animation-iteration-count:
+      1 !important;
+  }
+}
+
+
+/* ==========================================================================
+   32. PRINT
+   ========================================================================== */
+
+@media print {
+  :root {
+    color-scheme: light;
+  }
+
+  body {
+    background:
+      #ffffff !important;
+
+    color:
+      #111111 !important;
+  }
+
+  *,
+  *::before,
+  *::after {
+    box-shadow:
+      none !important;
+
+    text-shadow:
+      none !important;
+  }
+
+  a {
+    color: #111111;
+
+    text-decoration:
+      underline;
+  }
+
+  img {
+    page-break-inside:
+      avoid;
+  }
+
+  .no-print {
+    display:
+      none !important;
+  }
+}
