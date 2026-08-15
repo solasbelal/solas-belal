@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /solas-belal/
+
+Sitemap: https://solasbelal.github.io/solas-belal/sitemap.xml

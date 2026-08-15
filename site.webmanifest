@@ -1,0 +1,86 @@
+{
+  "id": "./",
+  "name": "সোলাস বেলাল",
+  "short_name": "সোলাস বেলাল",
+  "description": "সোলাস বেলালের অফিসিয়াল ওয়েবসাইট। জীবনী, অফিসিয়াল সোশ্যাল প্রোফাইল, মিডিয়া, গ্যালারি এবং কনটেন্ট ক্রিয়েটর হিসেবে তাঁর যাত্রা সম্পর্কে জানুন।",
+  "lang": "bn-BD",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": [
+    "window-controls-overlay",
+    "standalone",
+    "minimal-ui",
+    "browser"
+  ],
+  "orientation": "portrait-primary",
+  "background_color": "#030812",
+  "theme_color": "#030812",
+  "categories": [
+    "social",
+    "entertainment",
+    "lifestyle"
+  ],
+  "icons": [
+    {
+      "src": "assets/icons/favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icons/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icons/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icons/maskable-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "সোলাস বেলাল সম্পর্কে",
+      "short_name": "সম্পর্কে",
+      "description": "সোলাস বেলাল সম্পর্কে জানুন।",
+      "url": "about/"
+    },
+    {
+      "name": "অফিসিয়াল সোশ্যাল",
+      "short_name": "সোশ্যাল",
+      "description": "সোলাস বেলালের অফিসিয়াল সোশ্যাল প্রোফাইলগুলো দেখুন।",
+      "url": "socials/"
+    },
+    {
+      "name": "গ্যালারি",
+      "short_name": "গ্যালারি",
+      "description": "সোলাস বেলালের অফিসিয়াল গ্যালারি দেখুন।",
+      "url": "gallery/"
+    },
+    {
+      "name": "যোগাযোগ",
+      "short_name": "যোগাযোগ",
+      "description": "ব্যবসায়িক, সহযোগিতা ও অন্যান্য প্রয়োজনে সোলাস বেলালের সঙ্গে যোগাযোগ করুন।",
+      "url": "contact/"
+    }
+  ]
+}

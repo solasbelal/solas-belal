@@ -1,0 +1,670 @@
+SOLAS BELAL — PROJECT STRUCTURE
+===============================
+
+Project Name:
+Solas Belal Official Website
+
+Repository:
+https://github.com/solasbelal/solas-belal
+
+Live Website:
+https://solasbelal.github.io/solas-belal/
+
+Base Path:
+/solas-belal/
+
+
+ROOT
+====
+
+solas-belal/
+│
+├── index.html
+│   └── Main homepage
+│
+├── 404.html
+│   └── Custom page-not-found page
+│
+├── robots.txt
+│   └── Search engine crawler rules
+│
+├── sitemap.xml
+│   └── Public URL sitemap for search engines
+│
+├── site.webmanifest
+│   └── Progressive Web App manifest
+│
+├── .gitignore
+│   └── Git ignore configuration
+│
+├── README.md
+│   └── Project documentation
+│
+├── STRUCTURE.txt
+│   └── Complete project structure reference
+│
+│
+├── about/
+│   └── index.html
+│       └── About Solas Belal page
+│
+├── biography/
+│   └── index.html
+│       └── Official biography page
+│
+├── socials/
+│   └── index.html
+│       └── Official social profile directory
+│
+├── media/
+│   └── index.html
+│       └── Official media highlights
+│
+├── gallery/
+│   └── index.html
+│       └── Official image gallery
+│
+├── contact/
+│   └── index.html
+│       └── Business, collaboration, media and general contact page
+│
+├── privacy/
+│   └── index.html
+│       └── Privacy Policy
+│
+│
+├── assets/
+│   │
+│   ├── css/
+│   │   │
+│   │   ├── main.css
+│   │   │   ├── Global CSS variables
+│   │   │   ├── Reset
+│   │   │   ├── Typography
+│   │   │   ├── Base layout
+│   │   │   ├── Utility classes
+│   │   │   ├── Accessibility styles
+│   │   │   └── Global surfaces and spacing
+│   │   │
+│   │   ├── components.css
+│   │   │   ├── Header
+│   │   │   ├── Desktop navigation
+│   │   │   ├── Mobile navigation
+│   │   │   ├── Buttons
+│   │   │   ├── Hero
+│   │   │   ├── Page intro
+│   │   │   ├── Profile cards
+│   │   │   ├── Feature cards
+│   │   │   ├── Social cards
+│   │   │   ├── Media cards
+│   │   │   ├── Gallery cards
+│   │   │   ├── Filters
+│   │   │   ├── Timeline
+│   │   │   ├── Quote cards
+│   │   │   ├── CTA
+│   │   │   ├── Contact components
+│   │   │   ├── Forms
+│   │   │   ├── Lightbox
+│   │   │   ├── Legal components
+│   │   │   ├── 404 components
+│   │   │   ├── Footer
+│   │   │   └── Back-to-top button
+│   │   │
+│   │   └── responsive.css
+│   │       ├── Mobile layout
+│   │       ├── Tablet layout
+│   │       ├── Desktop layout
+│   │       ├── Responsive grids
+│   │       ├── Navigation breakpoint
+│   │       ├── Safe-area support
+│   │       ├── Reduced-motion support
+│   │       └── Print styles
+│   │
+│   │
+│   ├── js/
+│   │   │
+│   │   ├── main.js
+│   │   │   ├── Dynamic copyright year
+│   │   │   ├── External link security
+│   │   │   ├── Image loading state
+│   │   │   ├── Reveal animation
+│   │   │   ├── Back-to-top button
+│   │   │   ├── Smooth anchors
+│   │   │   ├── Filter system
+│   │   │   ├── Gallery lightbox
+│   │   │   ├── Touch and keyboard navigation
+│   │   │   ├── Contact helpers
+│   │   │   └── General UI utilities
+│   │   │
+│   │   └── navigation.js
+│   │       ├── Mobile menu open/close
+│   │       ├── ARIA state management
+│   │       ├── Scroll lock
+│   │       ├── Focus trap
+│   │       ├── Focus restore
+│   │       ├── Escape key handling
+│   │       ├── Active page detection
+│   │       ├── Header scroll state
+│   │       └── Responsive menu handling
+│   │
+│   │
+│   ├── images/
+│   │   │
+│   │   ├── profile/
+│   │   │   │
+│   │   │   ├── solas-belal-official-profile.webp
+│   │   │   │   └── Main official portrait
+│   │   │   │
+│   │   │   ├── solas-belal-square-profile.webp
+│   │   │   │   └── Square profile image
+│   │   │   │
+│   │   │   ├── solas-belal-about-portrait.webp
+│   │   │   │   └── About page portrait
+│   │   │   │
+│   │   │   └── solas-belal-biography-portrait.webp
+│   │   │       └── Biography page portrait
+│   │   │
+│   │   │
+│   │   ├── hero/
+│   │   │   │
+│   │   │   ├── solas-belal-hero-main.webp
+│   │   │   │   └── Homepage hero portrait
+│   │   │   │
+│   │   │   └── solas-belal-hero-alt.webp
+│   │   │       └── Alternative creator hero portrait
+│   │   │
+│   │   │
+│   │   ├── gallery/
+│   │   │   │
+│   │   │   ├── solas-belal-gallery-01.webp
+│   │   │   │   └── Celebrating With Fans
+│   │   │   │
+│   │   │   ├── solas-belal-gallery-02.webp
+│   │   │   │   └── On the Road
+│   │   │   │
+│   │   │   ├── solas-belal-gallery-03.webp
+│   │   │   │   └── Creator Mode
+│   │   │   │
+│   │   │   ├── solas-belal-gallery-04.webp
+│   │   │   │   └── A Different Side
+│   │   │   │
+│   │   │   ├── solas-belal-gallery-05.webp
+│   │   │   │   └── Golden Hour
+│   │   │   │
+│   │   │   ├── solas-belal-gallery-06.webp
+│   │   │   │   └── Cinematic Character
+│   │   │   │
+│   │   │   └── solas-belal-gallery-07.webp
+│   │   │       └── Seaside Escape
+│   │   │
+│   │   │
+│   │   ├── media/
+│   │   │   │
+│   │   │   ├── solas-belal-media-01.webp
+│   │   │   │   └── The Journey Is Just Beginning
+│   │   │   │
+│   │   │   ├── solas-belal-media-02.webp
+│   │   │   │   └── Real Talk
+│   │   │   │
+│   │   │   └── solas-belal-media-03.webp
+│   │   │       └── Behind the Content
+│   │   │
+│   │   │
+│   │   ├── social/
+│   │   │   │
+│   │   │   └── solas-belal-social-promo.webp
+│   │   │       └── Social profile promotional visual
+│   │   │
+│   │   │
+│   │   └── seo/
+│   │       │
+│   │       ├── og-home.jpg
+│   │       │   └── Homepage social preview
+│   │       │
+│   │       ├── og-about.jpg
+│   │       │   └── About page social preview
+│   │       │
+│   │       ├── og-biography.jpg
+│   │       │   └── Biography page social preview
+│   │       │
+│   │       ├── og-socials.jpg
+│   │       │   └── Socials page preview
+│   │       │
+│   │       ├── og-media.jpg
+│   │       │   └── Media page preview
+│   │       │
+│   │       ├── og-gallery.jpg
+│   │       │   └── Gallery page preview
+│   │       │
+│   │       ├── og-contact.jpg
+│   │       │   └── Contact page preview
+│   │       │
+│   │       └── og-privacy.jpg
+│   │           └── Privacy page preview
+│   │
+│   │
+│   └── icons/
+│       │
+│       ├── favicon.ico
+│       │   └── Browser favicon
+│       │
+│       ├── favicon-16x16.png
+│       │   └── Small browser icon
+│       │
+│       ├── favicon-32x32.png
+│       │   └── Standard browser icon
+│       │
+│       ├── apple-touch-icon.png
+│       │   └── Apple touch icon — 180×180
+│       │
+│       ├── icon-192.png
+│       │   └── PWA icon — 192×192
+│       │
+│       ├── icon-512.png
+│       │   └── PWA icon — 512×512
+│       │
+│       └── maskable-icon-512.png
+│           └── PWA maskable icon — 512×512
+│
+│
+├── data/
+│   │
+│   ├── profile.json
+│   │   ├── Creator identity
+│   │   ├── Public biography information
+│   │   ├── DOB
+│   │   ├── Birthplace
+│   │   ├── Public hometown
+│   │   ├── Creator content categories
+│   │   ├── Image paths
+│   │   ├── SEO aliases
+│   │   └── Privacy display settings
+│   │
+│   ├── social-links.json
+│   │   ├── TikTok profile
+│   │   ├── Instagram profile
+│   │   ├── Facebook profile
+│   │   └── Threads profile
+│   │
+│   ├── gallery.json
+│   │   ├── Gallery images
+│   │   ├── Image titles
+│   │   ├── Categories
+│   │   └── Alternative text
+│   │
+│   └── media.json
+│       ├── Media images
+│       ├── Titles
+│       ├── Categories
+│       └── Descriptions
+│
+│
+└── config/
+    │
+    └── site.json
+        ├── Website name
+        ├── Brand information
+        ├── GitHub information
+        ├── GitHub Pages URL
+        ├── Base path
+        ├── Production page URLs
+        ├── Asset paths
+        ├── SEO defaults
+        ├── Structured data configuration
+        ├── PWA configuration
+        ├── Contact configuration
+        └── Feature configuration
+
+
+===============================================================
+PUBLIC WEBSITE PAGES
+===============================================================
+
+Home
+----
+File:
+index.html
+
+Production URL:
+https://solasbelal.github.io/solas-belal/
+
+
+About
+-----
+File:
+about/index.html
+
+Production URL:
+https://solasbelal.github.io/solas-belal/about/
+
+
+Biography
+---------
+File:
+biography/index.html
+
+Production URL:
+https://solasbelal.github.io/solas-belal/biography/
+
+
+Socials
+-------
+File:
+socials/index.html
+
+Production URL:
+https://solasbelal.github.io/solas-belal/socials/
+
+
+Media
+-----
+File:
+media/index.html
+
+Production URL:
+https://solasbelal.github.io/solas-belal/media/
+
+
+Gallery
+-------
+File:
+gallery/index.html
+
+Production URL:
+https://solasbelal.github.io/solas-belal/gallery/
+
+
+Contact
+-------
+File:
+contact/index.html
+
+Production URL:
+https://solasbelal.github.io/solas-belal/contact/
+
+
+Privacy
+-------
+File:
+privacy/index.html
+
+Production URL:
+https://solasbelal.github.io/solas-belal/privacy/
+
+
+404
+---
+File:
+404.html
+
+
+===============================================================
+CREATOR IDENTITY
+===============================================================
+
+Creator Name:
+Solas Belal
+
+Real Name:
+Belal Uddin
+
+Bengali Creator Name:
+সোলাস বেলাল
+
+Bengali Real Name:
+বেলাল উদ্দিন
+
+Profession:
+Content Creator
+
+Nationality:
+Bangladeshi
+
+Date of Birth:
+15 December 2006
+
+Birthplace:
+Naikhongchhari, Bandarban, Bangladesh
+
+Public Hometown:
+Ramu, Cox's Bazar, Bangladesh
+
+Official Username:
+@Solasbelal
+
+Official Email:
+solasbelalnc@gmail.com
+
+
+===============================================================
+OFFICIAL SOCIAL PROFILES
+===============================================================
+
+TikTok:
+https://www.tiktok.com/@solasbelal
+
+Instagram:
+https://www.instagram.com/solasbelal/
+
+Facebook:
+https://www.facebook.com/solasbelal
+
+Threads:
+https://www.threads.com/@solasbelal
+
+
+===============================================================
+SEO
+===============================================================
+
+Canonical Base URL:
+https://solasbelal.github.io/solas-belal/
+
+Person Entity:
+https://solasbelal.github.io/solas-belal/#person
+
+WebSite Entity:
+https://solasbelal.github.io/solas-belal/#website
+
+Sitemap:
+https://solasbelal.github.io/solas-belal/sitemap.xml
+
+Robots:
+https://solasbelal.github.io/solas-belal/robots.txt
+
+
+===============================================================
+PATH RULES
+===============================================================
+
+ROOT HTML FILES
+---------------
+
+Example:
+index.html
+
+CSS:
+
+assets/css/main.css
+assets/css/components.css
+assets/css/responsive.css
+
+JavaScript:
+
+assets/js/navigation.js
+assets/js/main.js
+
+Images:
+
+assets/images/...
+
+
+SUBFOLDER HTML FILES
+--------------------
+
+Examples:
+
+about/index.html
+biography/index.html
+socials/index.html
+media/index.html
+gallery/index.html
+contact/index.html
+privacy/index.html
+
+CSS:
+
+../assets/css/main.css
+../assets/css/components.css
+../assets/css/responsive.css
+
+JavaScript:
+
+../assets/js/navigation.js
+../assets/js/main.js
+
+Images:
+
+../assets/images/...
+
+Home:
+
+../
+
+Sibling pages:
+
+../about/
+../biography/
+../socials/
+../media/
+../gallery/
+../contact/
+../privacy/
+
+
+===============================================================
+SEO URL RULE
+===============================================================
+
+HTML assets and internal navigation may use relative paths.
+
+Canonical URLs, Open Graph URLs and JSON-LD production URLs must use
+the complete GitHub Pages production URL.
+
+Example:
+
+https://solasbelal.github.io/solas-belal/about/
+
+
+===============================================================
+PRIVACY RULE
+===============================================================
+
+PUBLIC:
+
+Creator name
+Real name
+Date of birth
+Birthplace
+Public hometown
+Creator photographs
+Official social profiles
+Official business/public email
+
+
+PRIVATE / DO NOT PUBLISH:
+
+Exact residential address
+Village-level private residence
+Personal phone number
+Identification documents
+Private credentials
+Private household information
+Other non-public personal data
+
+
+===============================================================
+CONTACT
+===============================================================
+
+Official Public / Business Email:
+
+solasbelalnc@gmail.com
+
+Contact Page:
+
+https://solasbelal.github.io/solas-belal/contact/
+
+Contact Categories:
+
+Business Inquiry
+Brand Collaboration
+Creator Collaboration
+Media / Press
+Event Invitation
+General Message
+Other
+
+
+===============================================================
+DESIGN SYSTEM
+===============================================================
+
+Primary Background:
+#030812
+
+Surface:
+#111827
+
+Accent:
+#0099FF
+
+Primary Text:
+#F8FAFC
+
+Direction:
+
+Dark
+Cinematic
+Modern
+Premium
+Creator-focused
+Mobile-first
+Responsive
+
+
+===============================================================
+DEPLOYMENT
+===============================================================
+
+GitHub Username:
+solasbelal
+
+Repository:
+solas-belal
+
+Repository URL:
+https://github.com/solasbelal/solas-belal
+
+GitHub Pages:
+https://solasbelal.github.io/solas-belal/
+
+Deployment Source:
+main branch
+
+Deployment Folder:
+repository root
+
+
+===============================================================
+PROJECT VERSION
+===============================================================
+
+Version:
+1.0.0
+
+Initial Production Structure:
+2026-08-14
+
+Project:
+Solas Belal Official Website

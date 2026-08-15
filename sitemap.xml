@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+>
+
+  <!-- =========================================================
+       HOME — BANGLA
+       ========================================================= -->
+
+  <url>
+    <loc>https://solasbelal.github.io/solas-belal/</loc>
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="bn-BD"
+      href="https://solasbelal.github.io/solas-belal/"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="en-BD"
+      href="https://solasbelal.github.io/solas-belal/en/"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="x-default"
+      href="https://solasbelal.github.io/solas-belal/"
+    />
+
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+
+  <!-- =========================================================
+       HOME — ENGLISH
+       ========================================================= -->
+
+  <url>
+    <loc>https://solasbelal.github.io/solas-belal/en/</loc>
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="bn-BD"
+      href="https://solasbelal.github.io/solas-belal/"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="en-BD"
+      href="https://solasbelal.github.io/solas-belal/en/"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="x-default"
+      href="https://solasbelal.github.io/solas-belal/"
+    />
+
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+
+  <!-- =========================================================
+       ABOUT — BANGLA
+       ========================================================= -->
+
+  <url>
+    <loc>https://solasbelal.github.io/solas-belal/about/</loc>
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="bn-BD"
+      href="https://solasbelal.github.io/solas-belal/about/"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="en-BD"
+      href="https://solasbelal.github.io/solas-belal/en/about/"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="x-default"
+      href="https://solasbelal.github.io/solas-belal/about/"
+    />
+
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+
+  <!-- =========================================================
+       ABOUT — ENGLISH
+       ========================================================= -->
+
+  <url>
+    <loc>https://solasbelal.github.io/solas-belal/en/about/</loc>
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="bn-BD"
+      href="https://solasbelal.github.io/solas-belal/about/"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="en-BD"
+      href="https://solasbelal.github.io/solas-belal/en/about/"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="x-default"
+      href="https://solasbelal.github.io/solas-belal/about/"
+    />
+
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+
+  <!-- =========================================================
+       BIOGRAPHY — BANGLA
+       ========================================================= -->
+
+  <url>
+    <loc>https://solasbelal.github.io/solas-belal/biography/</loc>
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="bn-BD"
+      href="https://solasbelal.github.io/solas-belal/biography/"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="en-BD"
+      href="https://solasbelal.github.io/solas-belal/en/biography/"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="x-default"
+      href="https://solasbelal.github.io/solas-belal/biography/"
+    />
+
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+
+  <!-- =========================================================
+       BIOGRAPHY — ENGLISH
+       ========================================================= -->
+
+  <url>
+    <loc>https://solasbelal.github.io/solas-belal/en/biography/</loc>
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="bn-BD"
+      href="https://solasbelal.github.io/solas-belal/biography/"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="en-BD"
+      href="https://solasbelal.github.io/solas-belal/en/biography/"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="x-default"
+      href="https://solasbelal.github.io/solas-belal/biography/"
+    />
+
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+
+  <!-- =========================================================
+       SOCIALS — BANGLA
+       ========================================================= -->
+
+  <url>
+    <loc>https://solasbelal.github.io/solas-belal/socials/</loc>
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="bn-BD"
+      href="https://solasbelal.github.io/solas-belal/socials/"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="en-BD"
+      href="https://solasbelal.github.io/solas-belal/en/socials/"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="x-default"
+      href="https://solasbelal.github.io/solas-belal/socials/"
+    />
+
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+
+  <!-- =========================================================
+       SOCIALS — ENGLISH
+       ========================================================= -->
+
+  <url>
+    <loc>https://solasbelal.github.io/solas-belal/en/socials/</loc>
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="bn-BD"
+      href="https://solasbelal.github.io/solas-belal/socials/"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="en-BD"
+      href="https://solasbelal.github.io/solas-belal/en/socials/"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="x-default"
+      href="https://solasbelal.github.io/solas-belal/socials/"
+    />
+
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+
+  <!-- =========================================================
+       MEDIA — BANGLA
+       ========================================================= -->
+
+  <url>
+    <loc>https://solasbelal.github.io/solas-belal/media/</loc>
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="bn-BD"
+      href="https://solasbelal.github.io/solas-belal/media/"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="en-BD"
+      href="https://solasbelal.github.io/solas-belal/en/media/"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="x-default"
+      href="https://solasbelal.github.io/solas-belal/media/"
+    />
+
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+
+  <!-- =========================================================
+       MEDIA — ENGLISH
+       ========================================================= -->
+
+  <url>
+    <loc>https://solasbelal.github.io/solas-belal/en/media/</loc>
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="bn-BD"
+      href="https://solasbelal.github.io/solas-belal/media/"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="en-BD"
+      href="https://solasbelal.github.io/solas-belal/en/media/"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="x-default"
+      href="https://solasbelal.github.io/solas-belal/media/"
+    />
+
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+
+  <!-- =========================================================
+       GALLERY — BANGLA
+       ========================================================= -->
+
+  <url>
+    <loc>https://solasbelal.github.io/solas-belal/gallery/</loc>
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="bn-BD"
+      href="https://solasbelal.github.io/solas-belal/gallery/"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="en-BD"
+      href="https://solasbelal.github.io/solas-belal/en/gallery/"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="x-default"
+      href="https://solasbelal.github.io/solas-belal/gallery/"
+    />
+
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+
+  <!-- =========================================================
+       GALLERY — ENGLISH
+       ========================================================= -->
+
+  <url>
+    <loc>https://solasbelal.github.io/solas-belal/en/gallery/</loc>
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="bn-BD"
+      href="https://solasbelal.github.io/solas-belal/gallery/"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="en-BD"
+      href="https://solasbelal.github.io/solas-belal/en/gallery/"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="x-default"
+      href="https://solasbelal.github.io/solas-belal/gallery/"
+    />
+
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+
+  <!-- =========================================================
+       CONTACT — BANGLA
+       ========================================================= -->
+
+  <url>
+    <loc>https://solasbelal.github.io/solas-belal/contact/</loc>
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="bn-BD"
+      href="https://solasbelal.github.io/solas-belal/contact/"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="en-BD"
+      href="https://solasbelal.github.io/solas-belal/en/contact/"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="x-default"
+      href="https://solasbelal.github.io/solas-belal/contact/"
+    />
+
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+
+  <!-- =========================================================
+       CONTACT — ENGLISH
+       ========================================================= -->
+
+  <url>
+    <loc>https://solasbelal.github.io/solas-belal/en/contact/</loc>
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="bn-BD"
+      href="https://solasbelal.github.io/solas-belal/contact/"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="en-BD"
+      href="https://solasbelal.github.io/solas-belal/en/contact/"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="x-default"
+      href="https://solasbelal.github.io/solas-belal/contact/"
+    />
+
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+
+  <!-- =========================================================
+       PRIVACY — BANGLA
+       ========================================================= -->
+
+  <url>
+    <loc>https://solasbelal.github.io/solas-belal/privacy/</loc>
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="bn-BD"
+      href="https://solasbelal.github.io/solas-belal/privacy/"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="en-BD"
+      href="https://solasbelal.github.io/solas-belal/en/privacy/"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="x-default"
+      href="https://solasbelal.github.io/solas-belal/privacy/"
+    />
+
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+
+  <!-- =========================================================
+       PRIVACY — ENGLISH
+       ========================================================= -->
+
+  <url>
+    <loc>https://solasbelal.github.io/solas-belal/en/privacy/</loc>
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="bn-BD"
+      href="https://solasbelal.github.io/solas-belal/privacy/"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="en-BD"
+      href="https://solasbelal.github.io/solas-belal/en/privacy/"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="x-default"
+      href="https://solasbelal.github.io/solas-belal/privacy/"
+    />
+
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+
+
+  <!-- =========================================================
+       TERMS — BANGLA
+       ========================================================= -->
+
+  <url>
+    <loc>https://solasbelal.github.io/solas-belal/terms/</loc>
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="bn-BD"
+      href="https://solasbelal.github.io/solas-belal/terms/"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="en-BD"
+      href="https://solasbelal.github.io/solas-belal/en/terms/"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="x-default"
+      href="https://solasbelal.github.io/solas-belal/terms/"
+    />
+
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+
+  <!-- =========================================================
+       TERMS — ENGLISH
+       ========================================================= -->
+
+  <url>
+    <loc>https://solasbelal.github.io/solas-belal/en/terms/</loc>
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="bn-BD"
+      href="https://solasbelal.github.io/solas-belal/terms/"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="en-BD"
+      href="https://solasbelal.github.io/solas-belal/en/terms/"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="x-default"
+      href="https://solasbelal.github.io/solas-belal/terms/"
+    />
+
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+
+</urlset>

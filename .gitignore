@@ -1,0 +1,147 @@
+# ============================================================
+# SOLAS BELAL — GIT IGNORE
+# Official static GitHub Pages website
+# ============================================================
+
+
+# ------------------------------------------------------------
+# OPERATING SYSTEM FILES
+# ------------------------------------------------------------
+
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+
+# ------------------------------------------------------------
+# EDITOR / IDE FILES
+# ------------------------------------------------------------
+
+.vscode/
+.idea/
+*.code-workspace
+*.sublime-project
+*.sublime-workspace
+
+
+# ------------------------------------------------------------
+# TEMPORARY / BACKUP FILES
+# ------------------------------------------------------------
+
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+*.orig
+*.swp
+*.swo
+*~
+*.autosave
+
+
+# ------------------------------------------------------------
+# LOG FILES
+# ------------------------------------------------------------
+
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+
+# ------------------------------------------------------------
+# NODE / PACKAGE FILES
+# Not currently required, but ignored if tools are used later.
+# ------------------------------------------------------------
+
+node_modules/
+.npm/
+.pnpm-store/
+.yarn/
+
+
+# ------------------------------------------------------------
+# BUILD / CACHE DIRECTORIES
+# ------------------------------------------------------------
+
+dist/
+build/
+.cache/
+.parcel-cache/
+.next/
+out/
+
+
+# ------------------------------------------------------------
+# ENVIRONMENT / SECRET FILES
+# Never commit private environment variables or credentials.
+# ------------------------------------------------------------
+
+.env
+.env.*
+!.env.example
+
+
+# ------------------------------------------------------------
+# LOCAL SERVER / DEVELOPMENT FILES
+# ------------------------------------------------------------
+
+.server/
+.local/
+tmp/
+temp/
+
+
+# ------------------------------------------------------------
+# ARCHIVE / EXPORT FILES
+# ------------------------------------------------------------
+
+*.zip
+*.rar
+*.7z
+*.tar
+*.tar.gz
+
+
+# ------------------------------------------------------------
+# MOBILE / ACODE TEMP FILES
+# ------------------------------------------------------------
+
+.acode/
+*.acode
+.backup/
+
+
+# ------------------------------------------------------------
+# IMPORTANT
+#
+# DO NOT IGNORE:
+#
+# index.html
+# 404.html
+# robots.txt
+# sitemap.xml
+# site.webmanifest
+# README.md
+# STRUCTURE.txt
+# assets/
+# data/
+# config/
+# about/
+# biography/
+# socials/
+# media/
+# gallery/
+# contact/
+# privacy/
+#
+# These files and directories are required by the website.
+# ------------------------------------------------------------
